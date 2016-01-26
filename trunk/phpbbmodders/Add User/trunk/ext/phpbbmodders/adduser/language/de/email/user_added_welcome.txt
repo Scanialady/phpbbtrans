@@ -1,0 +1,19 @@
+Subject: Für dich wurde ein Benutzerkonto auf "{SITENAME}" angelegt
+
+{WELCOME_MSG}
+
+Bitte bewahre diese E-Mail in deinen Unterlagen auf. Die Daten deines Benutzerkontos lauten:
+
+----------------------------
+Benutzername: {USERNAME}
+
+Board URL: {U_BOARD}
+
+Passwort: {PASSWORD}
+----------------------------
+
+Dein Passwort wurde sicher in unserer Datenbank gespeichert und kann nicht wiederhergestellt werden. Falls es vergessen werden sollte, kannst du es über die E-Mail-Adresse, die deinem Account zugeordnet ist, zurücksetzen lassen.  Wir empfehlen dringend, dieses Passwort zu ändern, wenn du das erste Mal im Forum einloggst.
+
+Danke für die Registrierung.
+
+{EMAIL_SIG}
