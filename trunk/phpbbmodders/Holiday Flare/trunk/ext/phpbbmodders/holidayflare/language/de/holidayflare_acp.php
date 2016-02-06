@@ -2,6 +2,7 @@
 /**
  *
  * @package Holiday Flare extension
+ * @version $Id$
  * @author bonelifer (William Jacoby) bonelifer@phpbbmodders.net
  * @author VSE (Matt Friedman)
  * @copyright (c) 2014 phpbbmodders.net

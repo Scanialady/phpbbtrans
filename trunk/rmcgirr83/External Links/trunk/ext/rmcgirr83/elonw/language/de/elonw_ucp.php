@@ -2,7 +2,7 @@
 /**
 *
 * External Links Open in New Window [English]
-*
+* @version $Id$
 * @copyright (c) 2014 Rich McGirr
 * @license GNU General Public License, version 2 (GPL-2.0)
 *

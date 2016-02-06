@@ -2,7 +2,7 @@
 /**
 *
 * Pages extension for the phpBB Forum Software package.
-*
+* @version $Id$
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -98,10 +98,10 @@ $lang = array_merge($lang, array(
 	'PARSE_HTML'						=> 'Parse HTML',
 
 	// Page link location names
-	'NAV_BAR_LINKS_BEFORE'				=> 'In Nav Bar vor den Links',
-	'NAV_BAR_LINKS_AFTER'				=> 'In Nav Bar nach den Links',
-	'NAV_BAR_CRUMBS_BEFORE'				=> 'In Nav Bar vor Breadcrumbs',
-	'NAV_BAR_CRUMBS_AFTER'				=> 'In Nav Bar nach Breadcrumbs',
+	'NAV_BAR_LINKS_BEFORE'				=> 'In Nav-Bar vor den Links',
+	'NAV_BAR_LINKS_AFTER'				=> 'In Nav-Bar nach den Links',
+	'NAV_BAR_CRUMBS_BEFORE'				=> 'In Nav-Bar vor Breadcrumbs',
+	'NAV_BAR_CRUMBS_AFTER'				=> 'In Nav-Bar nach Breadcrumbs',
 	'FOOTER_TIMEZONE_BEFORE'			=> 'Footer vor Zeitzone',
 	'FOOTER_TIMEZONE_AFTER'				=> 'Footer nach Zeitzone',
 	'FOOTER_TEAMS_BEFORE'				=> 'Footer vor Teamlink',

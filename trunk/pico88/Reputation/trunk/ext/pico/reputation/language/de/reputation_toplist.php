@@ -3,7 +3,7 @@
 *
 * Reputation System extension [German]
 *
-* @version $Id: reputation_toplist.php 30 2014-12-23 10:17:55Z Scanialady $
+* @version $Id$
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *

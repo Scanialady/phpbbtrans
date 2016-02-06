@@ -2,7 +2,7 @@
 /**
  *
  * Collapsible Categories extension for the phpBB Forum Software package.
- *
+ * @version $Id$
  * @copyright (c) 2015 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
