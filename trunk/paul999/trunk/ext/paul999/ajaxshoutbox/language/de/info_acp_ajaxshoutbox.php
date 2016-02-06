@@ -2,7 +2,7 @@
 /**
  *
  * Ajax Shoutbox extension for the phpBB Forum Software package [German].
- * Translated by Scanialady <http://ladyscommunity.de> 2015-03-26
+ * @version $Id$
  * @copyright (c) 2014 Paul Sohier <http://www.ajax-shoutbox.com>
  * @license       GNU General Public License, version 2 (GPL-2.0)
  *
