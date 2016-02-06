@@ -1,6 +1,7 @@
 <?php
 /*
 *
+* @version $Id$
 * @package Hangman game
 * @author dmzx (www.dmzx-web.net)
 * @copyright (c) 2015 by dmzx (www.dmzx-web.net)
