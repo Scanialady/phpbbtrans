@@ -1,7 +1,8 @@
 <?php
 /**
 *
-* @package phpBB Extension - mChat
+* @version $Id$
+* @package phpBB Extension - mChat [deutsch]
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
