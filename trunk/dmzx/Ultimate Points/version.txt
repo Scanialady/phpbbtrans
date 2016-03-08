@@ -1,1 +1,1 @@
-Ultimate Points 1.1.1 Github 29.12.15 für phpBB 3.1.6
+Ultimate Points 1.1.2 Github 08.03.16 für phpBB 3.1.8
