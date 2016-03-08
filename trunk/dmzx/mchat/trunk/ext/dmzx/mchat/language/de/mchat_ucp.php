@@ -32,17 +32,19 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters for use
-// ’ » “ ” …
+//  ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, array(
-	// Module titles
-	'ACP_CAT_MCHAT'							=> 'mChat',
-	'ACP_MCHAT_CONFIG'						=> 'Configuration',
+	'MCHAT_PREFERENCES'				=> 'mChat Einstellungen',
 
-	// Log entries (%1$s is replaced with the user name who triggered the event)
-	'LOG_MCHAT_CONFIG_UPDATE'				=> '<strong>mChat configuration updated</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PRUNED'				=> '<strong>mChat messages pruned</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PURGED'				=> '<strong>mChat messages purged</strong><br />» %1$s',
-	'LOG_DELETED_MCHAT'						=> '<strong>mChat message deleted</strong><br />» %1$s',
-	'LOG_EDITED_MCHAT'						=> '<strong>mChat message edited</strong><br />» %1$s',
+	'MCHAT_DISPLAY'					=> 'Auf dem Index anzeigen',
+	'MCHAT_SOUND'					=> 'Ton einschalten',
+	'MCHAT_DISPLAY_STATS_INDEX'		=> 'Zeige „Wer chattet“ auf dem Index',
+	'MCHAT_DISPLAY_NEW_TOPICS'		=> 'Zeige neue Beiträge im Chat',
+	'MCHAT_DISPLAY_AVATARS'			=> 'Zeige Avatare im Chat',
+	'MCHAT_CAPITAL_LETTER'			=> 'In deinen Nachrichten den ersten Buchstaben groß anzeigen',
+	'MCHAT_CHAT_AREA'				=> 'Eingabetyp',
+	'MCHAT_CHAT_AREA_EXPLAIN'		=> 'Der Bereichstyp, der für die Eingabe von Nachrichten benutzt werden soll',
+	'MCHAT_INPUT_AREA'				=> 'Eingabebereich',
+	'MCHAT_TEXT_AREA'				=> 'Textbereich',
 ));

@@ -35,14 +35,19 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	// Module titles
-	'ACP_CAT_MCHAT'							=> 'mChat',
-	'ACP_MCHAT_CONFIG'						=> 'Configuration',
+	'ACL_U_MCHAT_USE'						=> 'Kann mChat benutzen',
+	'ACL_U_MCHAT_VIEW'						=> 'Kann mChat sehen',
+	'ACL_U_MCHAT_EDIT'						=> 'Kann mChat-Nachrichten bearbeiten',
+	'ACL_U_MCHAT_DELETE'					=> 'Kann mChat-Nachrichten löschen',
+	'ACL_U_MCHAT_IP'						=> 'Kann IP-Adressen sehen',
+	'ACL_U_MCHAT_PM'						=> 'Kann Private Nachrichten benutzen',
+	'ACL_U_MCHAT_LIKE'						=> 'Kann Nachrichten liken',
+	'ACL_U_MCHAT_QUOTE'						=> 'Kann Nachrichten zitieren',
+	'ACL_U_MCHAT_FLOOD_IGNORE'				=> 'Kann Flood-Intervall ignorieren',
+	'ACL_U_MCHAT_ARCHIVE'					=> 'Kann das Archiv sehen',
+	'ACL_U_MCHAT_BBCODE'					=> 'Kann BBCodes benutzen',
+	'ACL_U_MCHAT_SMILIES'					=> 'Kann Smilies benutzen',
+	'ACL_U_MCHAT_URLS'						=> 'Kann URLs senden',
 
-	// Log entries (%1$s is replaced with the user name who triggered the event)
-	'LOG_MCHAT_CONFIG_UPDATE'				=> '<strong>mChat configuration updated</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PRUNED'				=> '<strong>mChat messages pruned</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PURGED'				=> '<strong>mChat messages purged</strong><br />» %1$s',
-	'LOG_DELETED_MCHAT'						=> '<strong>mChat message deleted</strong><br />» %1$s',
-	'LOG_EDITED_MCHAT'						=> '<strong>mChat message edited</strong><br />» %1$s',
+	'ACL_A_MCHAT'							=> 'Kann mChat-Einstellungen verwalten',
 ));

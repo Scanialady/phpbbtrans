@@ -35,14 +35,16 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	// Module titles
-	'ACP_CAT_MCHAT'							=> 'mChat',
-	'ACP_MCHAT_CONFIG'						=> 'Configuration',
+	'MCHAT_PREFERENCES'				=> 'mChat preferences',
 
-	// Log entries (%1$s is replaced with the user name who triggered the event)
-	'LOG_MCHAT_CONFIG_UPDATE'				=> '<strong>mChat configuration updated</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PRUNED'				=> '<strong>mChat messages pruned</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PURGED'				=> '<strong>mChat messages purged</strong><br />» %1$s',
-	'LOG_DELETED_MCHAT'						=> '<strong>mChat message deleted</strong><br />» %1$s',
-	'LOG_EDITED_MCHAT'						=> '<strong>mChat message edited</strong><br />» %1$s',
+	'MCHAT_DISPLAY'					=> 'Display on index',
+	'MCHAT_SOUND'					=> 'Enable sound',
+	'MCHAT_DISPLAY_STATS_INDEX'		=> 'Display who is chatting on index',
+	'MCHAT_DISPLAY_NEW_TOPICS'		=> 'Display new topics in the chat',
+	'MCHAT_DISPLAY_AVATARS'			=> 'Display avatars in the chat',
+	'MCHAT_CAPITAL_LETTER'			=> 'Capital first letter in your messages',
+	'MCHAT_CHAT_AREA'				=> 'Input type',
+	'MCHAT_CHAT_AREA_EXPLAIN'		=> 'The type of area to use for writing messages',
+	'MCHAT_INPUT_AREA'				=> 'Input area',
+	'MCHAT_TEXT_AREA'				=> 'Text area',
 ));
