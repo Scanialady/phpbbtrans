@@ -2,7 +2,7 @@
 /***************************************************************************
 *
 * @package Medals Mod for phpBB3
-* @version $Id: medals.php,v 0.7.0 2008/01/14 Gremlinn$
+* @version $Id$
 * @copyright (c) 2008 Nathan DuPra (mods@dupra.net)
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
