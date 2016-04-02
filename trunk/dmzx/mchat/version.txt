@@ -1,1 +1,1 @@
-mChat 1.0.0 RC2 Extension für phpBB 3.1.8
+mChat 2.0.0 RC4 Extension für phpBB 3.1.8
