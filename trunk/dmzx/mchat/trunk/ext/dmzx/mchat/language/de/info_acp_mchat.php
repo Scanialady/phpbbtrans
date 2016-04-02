@@ -1,8 +1,8 @@
 <?php
 
 /**
- *
- * @package phpBB Extension - mChat
+ * version: $ID$
+ * @package phpBB Extension - mChat [German]
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -31,13 +31,15 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
-// Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
-//
+// Some characters you may want to copy&paste:
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, array(
 	// Module titles
-	'ACP_CAT_MCHAT'							=> 'mChat',
-	'ACP_MCHAT_CONFIG'						=> 'Konfiguration',
+	'ACP_CAT_MCHAT'					=> 'mChat',
+	'ACP_CAT_MCHAT_USER_CONFIG'		=> 'mChat im UCP',
+	'ACP_MCHAT_GLOBALSETTINGS'		=> 'Globale Einstellungen',
+	'ACP_MCHAT_GLOBALUSERSETTINGS'	=> 'Globale Benutzereinstellungen',
 
 	// Log entries (%1$s is replaced with the user name who triggered the event)
 	'LOG_MCHAT_CONFIG_UPDATE'				=> '<strong>mChat-Konfiguration geändert</strong><br />» %1$s',

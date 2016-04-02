@@ -2,7 +2,7 @@
 
 /**
  *
- * @package phpBB Extension - mChat
+ * @package phpBB Extension - mChat [German]
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -32,7 +32,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters for use
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, array(
 	'UCP_MCHAT_CONFIG' => 'mChat',

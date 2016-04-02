@@ -1,8 +1,8 @@
 <?php
 
 /**
- *
- * @package phpBB Extension - mChat
+ * version: $ID$
+ * @package phpBB Extension - mChat [German]
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -31,8 +31,8 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
-// Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
-//
+// Some characters you may want to copy&paste:
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, array(
 	'MCHAT_TITLE'					=> 'mChat',
@@ -59,9 +59,8 @@ $lang = array_merge($lang, array(
 	),
 
 	// Post notification messages (%1$s is replaced with a link to the new/edited post, %2$s is replaced with a link to the forum)
-	'MCHAT_NEW_POST'				=> 'Erstellte einen neuen Beitrag: %1$s in %2$s',
-	'MCHAT_NEW_REPLY'				=> 'Erstellte eine neue Antwort: %1$s in %2$s',
-	'MCHAT_NEW_QUOTE'				=> 'Antwortete mit einem Zitat: %1$s in %2$s',
-	'MCHAT_NEW_EDIT'				=> 'Bearbeitete einen Beitrag: %1$s in %2$s',
-
+	'MCHAT_NEW_POST'				=> 'erstellte einen neuen Beitrag: %1$s in %2$s',
+	'MCHAT_NEW_REPLY'				=> 'erstellte eine neue Antwort: %1$s in %2$s',
+	'MCHAT_NEW_QUOTE'				=> 'antwortete mit einem Zitat: %1$s in %2$s',
+	'MCHAT_NEW_EDIT'				=> 'bearbeitete einen Beitrag: %1$s in %2$s',
 ));

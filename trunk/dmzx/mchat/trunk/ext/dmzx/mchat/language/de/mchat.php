@@ -1,8 +1,8 @@
 <?php
 
 /**
- *
- * @package phpBB Extension - mChat
+ * version: $ID$
+ * @package phpBB Extension - mChat [German]
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -78,6 +78,11 @@ $lang = array_merge($lang, array(
 		1 => 'vor %1$d Minute',
 		2 => 'vor %1$d Minuten',
 	),
+
+	// These messages are formatted with JavaScript, hence {} and no $d
+	'MCHAT_CHARACTER_COUNT'			=> '<strong>{current}</strong> Zeichen',
+	'MCHAT_CHARACTER_COUNT_LIMIT'	=> '<strong>{current}</strong> verbraucht von {max} Zeichen',
+	'MCHAT_SESSION_ENDS_JS'			=> 'Chatsitzung endet in {timeleft}',
 
 	// Custom translations for administrators
 	'MCHAT_RULES_MESSAGE'			=> '',

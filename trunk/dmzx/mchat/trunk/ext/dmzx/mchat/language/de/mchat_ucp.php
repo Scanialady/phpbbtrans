@@ -1,8 +1,8 @@
 <?php
 
 /**
- *
- * @package phpBB Extension - mChat
+ * version: $ID$
+ * @package phpBB Extension - mChat [German]
  * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
  * @copyright (c) 2016 kasimi
  * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -36,15 +36,36 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'MCHAT_PREFERENCES'				=> 'mChat Einstellungen',
+	'MCHAT_NO_SETTINGS'				=> 'Du bist nicht berechtigt irgendwelche Einstellungen anzupassen.',
 
-	'MCHAT_DISPLAY'					=> 'Auf dem Index anzeigen',
-	'MCHAT_SOUND'					=> 'Ton einschalten',
-	'MCHAT_DISPLAY_STATS_INDEX'		=> 'Zeige „Wer chattet“ auf dem Index',
-	'MCHAT_DISPLAY_NEW_TOPICS'		=> 'Zeige neue Beiträge im Chat',
-	'MCHAT_DISPLAY_AVATARS'			=> 'Zeige Avatare im Chat',
-	'MCHAT_CAPITAL_LETTER'			=> 'In deinen Nachrichten den ersten Buchstaben groß anzeigen',
+	'MCHAT_SOUND'					=> 'Ton einschalten',	
+	'MCHAT_INDEX'					=> 'Auf dem Forenindex anzeigen',
+	'MCHAT_WHOIS_INDEX'				=> 'Zeige <em>Wer chattet</em> unter dem Chat an',
+	'MCHAT_STATS_INDEX'				=> 'Zeige <em>Wer chattet</em> im Statistikbereich an',
+	'MCHAT_STATS_INDEX_EXPLAIN'		=> 'Zeige wer chattet unter dem <em>Wer ist online</em>-Bereich auf dem Forenindex.',
+	'MCHAT_AVATARS'					=> 'Zeige Avatare im Chat',
+	'MCHAT_CAPITAL_LETTER'			=> 'Erster Buchstabe als Grossbuchstabe in deinen Nachrichten',
 	'MCHAT_CHAT_AREA'				=> 'Eingabetyp',
-	'MCHAT_CHAT_AREA_EXPLAIN'		=> 'Der Bereichstyp, der für die Eingabe von Nachrichten benutzt werden soll',
-	'MCHAT_INPUT_AREA'				=> 'Eingabebereich',
+	'MCHAT_INPUT_AREA'				=> 'Eingabefeld',
 	'MCHAT_TEXT_AREA'				=> 'Textbereich',
+	'MCHAT_POSTS'					=> 'Zeige neue Beiträge an (derzeit alle deaktiviert, können im ACP in den Allgemeinen Einstellungen von mChat aktiviert werden)',
+	'MCHAT_CHARACTER_COUNT'			=> 'Zeige die Anzahl der Zeichen beim Schreiben einer Nachricht an',
+	'MCHAT_RELATIVE_TIME'			=> 'Zeige die relative Zeit für neue Nachrichten an',
+	'MCHAT_RELATIVE_TIME_EXPLAIN'	=> 'Zeigt „gerade eben“, „vor einer Minute“ und so weiter für jede Nachricht an. Setze auf <em>Nein</em>, um immer das volle Datum zu sehen.',
+	'MCHAT_PAUSE_ON_INPUT'			=> 'Pause während der Eingabe',
+	'MCHAT_PAUSE_ON_INPUT_EXPLAIN'	=> 'Aktualisiere mChat nicht, während eine Nachricht geschrieben wird',
+	'MCHAT_MESSAGE_TOP'				=> 'Lokalisierung neuer Nachrichten',
+	'MCHAT_MESSAGE_TOP_EXPLAIN'		=> 'Neue Nachrichten werden oben oder unten im Chat erscheinen.',
+	'MCHAT_LOCATION'				=> 'Lokalisierung auf dem Forenindex',
+	'MCHAT_BOTTOM'					=> 'Unten',
+	'MCHAT_TOP'						=> 'Oben',
+
+	'MCHAT_POSTS_TOPIC'				=> 'Zeige neue Themen an',
+	'MCHAT_POSTS_REPLY'				=> 'Zeige neue Antworten an',
+	'MCHAT_POSTS_EDIT'				=> 'Zeige bearbeitete Beiträge an',
+	'MCHAT_POSTS_QUOTE'				=> 'Zeige Zitatbeiträge an',
+
+	'MCHAT_DATE_FORMAT'				=> 'Datumsformat',
+	'MCHAT_DATE_FORMAT_EXPLAIN'		=> 'Die verwendete Syntax ist identisch zur PHP <a href="http://www.php.net/date">date()</a> Funktion.',
+	'MCHAT_CUSTOM_DATEFORMAT'		=> 'Eigenes…',
 ));
