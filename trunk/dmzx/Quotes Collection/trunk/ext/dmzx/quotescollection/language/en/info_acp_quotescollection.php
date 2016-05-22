@@ -85,10 +85,5 @@ $lang = array_merge($lang, array(
 	'ACP_DM_QC_DELAY_EXPLAIN'			=> 'Here you can set a time delay in minutes, before a user can add a new quote. Enter 0 die disable this option.',
 	'ACP_DM_QC_MINUTE'					=> 'minute',
 	'ACP_DM_QC_MINUTES'					=> 'minutes',
-
-	// Permissions
-	'ACL_U_DM_QC_ADD'		=> 'Can add quotes',
-	'ACL_U_DM_QC_DELETE'	=> 'Can delete own quotes',
-	'ACL_U_DM_QC_VIEW'		=> 'Can view quotes',
-	'ACL_A_DM_QC_MANAGE'			=> 'Can manage quotes'
+	
 ));

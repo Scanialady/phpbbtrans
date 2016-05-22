@@ -40,7 +40,6 @@ $lang = array_merge($lang, array(
 	'DM_QC_TITLE'				=> 'DM Quotes Collection',
 	'DM_QC_HEADER'				=> 'Random Quote',
 	'DM_QC_QUOTE_TITLE'			=> 'Quotes',
-
 	'DM_QC_ADD'					=> 'Add quote',
 	'DM_QC_OWN'					=> 'Own quotes',
 	'DM_QC_ALL'					=> 'Show all quotes',
@@ -53,7 +52,7 @@ $lang = array_merge($lang, array(
 	'DM_QC_QUOTE_EXPLAIN'		=> 'Enter here your quote',
 	'DM_QC_QUOTES'				=> '<strong>Quote:</strong>',
 	'DM_QC_AUTHOR'				=> 'Author',
-	'DM_QC_AUTHOR_EXPLAIN'		=> 'Enter here the author of the quote. If you don\'t know, who it was, leave the field empty.',
+	'DM_QC_AUTHOR_EXPLAIN'		=> 'Enter here the author of the quote. If you don’t know, who it was, leave the field empty.',
 	'DM_QC_POSTER'				=> 'Posted by',
 	'DM_QC_DATE'				=> 'Posted on',
 	'DM_QC_SINGLE'				=> '1 quote',
@@ -69,7 +68,7 @@ $lang = array_merge($lang, array(
 	'DM_QC_QUOTE_ERROR'			=> 'You need to enter at lease the quote itself!',
 	'DM_QC_BACK_TO_PREV'		=> 'Back to last page',
 	'DM_QC_QUOTE_SUCCESS'		=> 'Your entry was successfully added<br /><br />',
-	'DM_QC_QUOTE_SUC_APP'		=> 'Your entry was successfully added, but it needs to be approved, before it\'s visible.<br /><br />',
+	'DM_QC_QUOTE_SUC_APP'		=> 'Your entry was successfully added, but it needs to be approved, before it’s visible.<br /><br />',
 	'DM_QC_BACK_TO_MAIN'		=> 'Back to DM Quotes Collection',
 	'DM_QC_CHECK_QUOTE'			=> 'There\'s <strong>one</strong> new quote available, which is waiting for being released!',
 	'DM_QC_CHECK_QUOTES'		=> 'There are <strong>%1$s</strong> new quotes available, which are waiting for being released!',
@@ -89,5 +88,4 @@ $lang = array_merge($lang, array(
 	'DM_QC_SORT_AUTHOR'			=> 'Author',
 	'DM_QC_SORT_POSTER'			=> 'Poster',
 	'DM_QC_SORT_DATE'			=> 'Date',
-
 ));

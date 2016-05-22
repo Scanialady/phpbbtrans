@@ -2,7 +2,7 @@
 /**
 *
 * @version $Id$
-* @package phpBB Extension - Quotes Collection
+* @package phpBB Extension - Quotes Collection (DEUTSCH)
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -87,9 +87,4 @@ $lang = array_merge($lang, array(
 	'ACP_DM_QC_MINUTE'					=> 'Minute',
 	'ACP_DM_QC_MINUTES'					=> 'Minuten',
 
-	// Permissions
-	'ACL_U_DM_QC_ADD'		=> 'Kann Zitate hinzufügen',
-	'ACL_U_DM_QC_DELETE'	=> 'Kann eigene Zitate löschen',
-	'ACL_U_DM_QC_VIEW'		=> 'Kann Zitate sehen',
-	'ACL_A_DM_QC_MANAGE'			=> 'Kann Zitate verwalten'
 ));
