@@ -2,7 +2,7 @@
 /**
 *
 * @version $Id$
-* @package phpBB Extension - Ultimate Points
+* @package phpBB Extension - Ultimate Points (DEUTSCH)
 * @copyright (c) 2015 dmzx & posey - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -248,6 +248,7 @@ $lang = array_merge($lang, array(
 	'POINTS_TITLE_MAIN'					=> '%1$s Kontrollkonsole',
 	'POINTS_TOTAL'						=> 'Gesamtes Barvermögen: %1$s %2$s',
 	'POINTS_TRANSFER'					=> 'Schenken',
+	'POINTS_TRANSFER_RECIEVED'			=> 'Geschenk erhalten',
 	'POINTS_VIEWING'					=> 'Ist in der Punktekonsole',
 
 	'ROBBERY_AMOUNT'					=> 'Betrag',
@@ -268,6 +269,12 @@ $lang = array_merge($lang, array(
 	'ROBBERY_TO_MUCH'					=> 'Du versuchst zu viel zu klauen. Wenn der Diebstahl fehlschlägt, kannst du den entstandenen Schaden nicht bezahlen...',
 	'ROBBERY_TO_MUCH_FROM_USER'			=> 'Du versuchst mehr zu klauen, als der Benutzer überhaupt hat.',
 
+	'TRANSFER_AMOUNTS'					=> 'Betrag',
+	'TRANSFER_SET_USERNAMES'			=> 'Name des Mitglieds, welches dir gespendet hat!',
+	'TRANSFER_DATE'						=> 'Überweisung erhalten',
+	'TRANSFER_RECEIVED_DISABLED'		=> 'Das Überweisungssystem ist deaktiviert',
+	'TRANSFER_RECEIVED'					=> '%1$s received',	
+	
 	'TIME_DAY'							=> 'Tag',
 	'TIME_DAYS'							=> 'Tage',
 	'TIME_HOUR'							=> 'Stunde',
@@ -282,9 +289,9 @@ $lang = array_merge($lang, array(
 	'TIME_WEEKS'						=> 'Wochen',
 	'TIME_YEAR'							=> 'Jahr',
 	'TIME_YEARS'						=> 'Jahre',
-	'TRANSFER_AMOUNT'					=> 'Betrag den du verschenken willst',
+	'TRANSFER_AMOUNT'					=> 'Betrag den du überweisen willst',
 	'TRANSFER_COMMENT'					=> 'Kommentar',
-	'TRANSFER_DESCRIPTION'				=> 'Hier kannst du einem anderen Benutzer ein paar %1$s schenken.<br /><br />Einfach den Betrag eingeben und absenden.<br /><br />Dieser Vorgang wird dann auch in deine Logs eingetragen.<br /><br />',
+	'TRANSFER_DESCRIPTION'				=> 'Hier kannst du einem anderen Benutzer ein paar %1$s überweisen.<br /><br />Einfach den Betrag eingeben und absenden.<br /><br />Dieser Vorgang wird dann auch in deine Logs eingetragen.<br /><br />',
 	'TRANSFER_FEE'						=> 'Überweisungsgebühren',
 	'TRANSFER_FEE_EXPLAIN'				=> 'Prozentualer Betrag, der von deiner Überweisung einbehalten wird',
 	'TRANSFER_NO_USER_RETURN'			=> '<strong>Der gewählte Benutzername ist fehlerhaft!</strong>',
@@ -309,7 +316,4 @@ $lang = array_merge($lang, array(
 	'WARN_USER_POINTS'					=> 'Zusätzlich wurden %1$s %2$s von deinem Konto abgezogen!',
 	'WARN_MOD_POINTS'					=> 'Zusätzlich wurden %1$s %2$s von %3$s\'s Konto abgezogen!',
 
-	//UCP
-	'UCP_ULTIMATEPOINTS_TITLE'			=> 'Ultimate Points',
-	'UCP_ULTIMATEPOINTS_EXPLAIN'		=> 'Deine Statistik'
 ));

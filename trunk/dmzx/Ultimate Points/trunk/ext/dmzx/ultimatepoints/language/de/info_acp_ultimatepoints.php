@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 // Merge the following language entries into the lang array
@@ -242,20 +242,6 @@ $lang = array_merge($lang, array(
 	'USER_POINTS'						=> 'Benutzerpunkte',
 	'USER_POINTS_EXPLAIN'				=> 'Anzahl der Punkte, die ein Benutzer besitzt',
 
-	//Permissions
-	'ACL_CAT_POINTS'		=> 'Ultimate Points',
-	'ACL_U_USE_POINTS'		=> 'Kann Ultimate Points benutzen',
-	'ACL_U_USE_ROBBERY'		=> 'Kann Diebstahlmodul benutzen',
-	'ACL_U_USE_BANK'		=> 'Kann Bankmodul benutzen',
-	'ACL_U_USE_LOGS'		=> 'Kann Protokollmodul benutzen',
-	'ACL_U_USE_LOTTERY'		=> 'Kann Lotteriemodul benutzen',
-	'ACL_U_USE_TRANSFER'	=> 'Kann Überweisungsmodul benutzen',
-	'ACL_F_PAY_ATTACHMENT'	=> 'Muss zahlen für Dateianhang-Download',
-	'ACL_F_PAY_TOPIC'		=> 'Muss zahlen für Erstellung neuer Themen',
-	'ACL_F_PAY_POST'		=> 'Muss zahlen für Erstellung neuer Beiträge',
-	'ACL_M_CHG_POINTS'		=> 'Kann Benutzerpunkte ändern',
-	'ACL_M_CHG_BANK'		=> 'Kann Bankguthaben der Benutzer ändern',
-	'ACL_A_POINTS'			=> 'Kann Ultimate Points administrieren',
 ));
 
 $help = array(
