@@ -177,7 +177,8 @@ $lang = array_merge($lang, array(
 	'LOTTERY_VIEW_SELF_HISTORY'			=> 'Zeige deine Gewinnhistorie',
 	'LOTTERY_WINNINGS'					=> 'Gesamt gewonnen',
 	'LOTTERY_WON'						=> 'Gewonnen von',
-
+	'LOTTERY_WINNER_INDEX'				=> 'Der letzte Lotterie-Gewinner: %1$s',
+	
 	'MAIN_BANK_HAVE'					=> 'Auf der Bank hortest du nochmal %1$s %2$s.',
 	'MAIN_HELLO_USERNAME'				=> 'Hallo %1$s !',
 	'MAIN_LOTTERIES_NONE'				=> 'Bisher keine Gewinner...',
@@ -228,7 +229,7 @@ $lang = array_merge($lang, array(
 	'POINTS_LIST_USERS'					=> '%s Benutzer',
 	'POINTS_LOG_TOTAL'					=> 'Gesamt',
 	'POINTS_LOTTERY'					=> 'Lotterie',
-	'POINTS_LOTTERY_TIME'				=> 'Nächste Ziehung: %1$s',
+	'POINTS_LOTTERY_TIME'				=> 'Nächste Lotterieziehung: %1$s',
 	'POINTS_MODIFY'						=> '[Ändern]',
 	'POINTS_MOST_RICH_CASH_USERS'		=> 'Benutzer mit dem höchsten Barvermögen',
 	'POINTS_MOST_RICH_USERS'			=> 'Reichste Benutzer',
@@ -268,7 +269,9 @@ $lang = array_merge($lang, array(
 	'ROBBERY_TOO_SMALL_AMOUNT'			=> 'Du musst ein bißchen mehr rauben!<br /> Der eingetragene Wert ist zu klein...',
 	'ROBBERY_TO_MUCH'					=> 'Du versuchst zu viel zu klauen. Wenn der Diebstahl fehlschlägt, kannst du den entstandenen Schaden nicht bezahlen...',
 	'ROBBERY_TO_MUCH_FROM_USER'			=> 'Du versuchst mehr zu klauen, als der Benutzer überhaupt hat.',
-
+	'ROBBERY_USER'						=> '[Starte Raubzug]',
+	'ROBBERY_TO_NAME'					=> 'Du möchtest einige <strong>%2$s</strong> von <strong>%1$s</strong> stehlen',
+	
 	'TRANSFER_AMOUNTS'					=> 'Betrag',
 	'TRANSFER_SET_USERNAMES'			=> 'Name des Mitglieds, welches dir gespendet hat!',
 	'TRANSFER_DATE'						=> 'Überweisung erhalten',
@@ -314,6 +317,5 @@ $lang = array_merge($lang, array(
 	'UP_UPDATE_SUCCESFUL'				=> 'Die Tabellen wurden erfolgreich aktualisiert',
 
 	'WARN_USER_POINTS'					=> 'Zusätzlich wurden %1$s %2$s von deinem Konto abgezogen!',
-	'WARN_MOD_POINTS'					=> 'Zusätzlich wurden %1$s %2$s von %3$s\'s Konto abgezogen!',
-
+	'WARN_MOD_POINTS'					=> 'Zusätzlich wurden %1$s %2$s von %3$s’s Konto abgezogen!',
 ));
