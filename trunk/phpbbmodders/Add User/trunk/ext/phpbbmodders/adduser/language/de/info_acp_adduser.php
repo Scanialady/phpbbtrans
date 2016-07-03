@@ -58,6 +58,9 @@ $lang = array_merge($lang, array(
 	'GROUP_DEFAULT_EXPLAIN'		=> 'Diese Box anzuklicken wird die oben ausgewählte Gruppe als Standardgruppe für die Benutzer gesetzt.',
 	'CONTINUE_EDIT_USER'		=> '%1$sKlicke hier für die Verwaltung von %2$s’s Profil%3$s', // z.B.: Klick hier um Joe’s Profil zu bearbeiten.
 	'PASSWORD_EXPLAIN'			=> 'Wenn du das hier frei lässt, wird ein Passwort automatisch generiert.',
+	'ENABLE_NEWUSER'			=> 'Aktiviere neuen Benutzer',
+	'ENABLE_NEWUSER_EXPLAIN'	=> 'Wird hier auf Ja gestellt, wird der Benutzer zur Gruppe der neu registrierten Benutzer hinzugefügt.',
+
 	// ACP Logs
 	'LOG_USER_ADDED'			=> '<strong>Neuer Benutzer erstellt</strong><br />» %s',
 ));
