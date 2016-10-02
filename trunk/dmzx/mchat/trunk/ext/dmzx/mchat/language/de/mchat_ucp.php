@@ -38,8 +38,8 @@ $lang = array_merge($lang, array(
 	'MCHAT_PREFERENCES'				=> 'mChat Einstellungen',
 	'MCHAT_NO_SETTINGS'				=> 'Du bist nicht berechtigt irgendwelche Einstellungen anzupassen.',
 
-	'MCHAT_SOUND'					=> 'Ton einschalten',	
 	'MCHAT_INDEX'					=> 'Auf dem Forenindex anzeigen',
+	'MCHAT_SOUND'					=> 'Ton einschalten',	
 	'MCHAT_WHOIS_INDEX'				=> 'Zeige <em>Wer chattet</em> unter dem Chat an',
 	'MCHAT_STATS_INDEX'				=> 'Zeige <em>Wer chattet</em> im Statistikbereich an',
 	'MCHAT_STATS_INDEX_EXPLAIN'		=> 'Zeige wer chattet unter dem <em>Wer ist online</em>-Bereich auf dem Forenindex.',
@@ -64,6 +64,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_POSTS_REPLY'				=> 'Zeige neue Antworten an',
 	'MCHAT_POSTS_EDIT'				=> 'Zeige bearbeitete Beiträge an',
 	'MCHAT_POSTS_QUOTE'				=> 'Zeige Zitatbeiträge an',
+	'MCHAT_POSTS_LOGIN'				=> 'Zeige Benutzeranmeldungen an',	
 
 	'MCHAT_DATE_FORMAT'				=> 'Datumsformat',
 	'MCHAT_DATE_FORMAT_EXPLAIN'		=> 'Die verwendete Syntax ist identisch zur PHP <a href="http://www.php.net/date">date()</a> Funktion.',
