@@ -1,13 +1,13 @@
 <?php
 
 /**
- * version: $ID$
- * @package phpBB Extension - mChat [German]
- * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
- * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
- */
+* @version $ID$
+* @package phpBB Extension - mChat [German]
+* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @copyright (c) 2016 kasimi - https://kasimi.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -52,6 +52,12 @@ $lang = array_merge($lang, array(
 	'MCHAT_ACP_USER_PREFS_EXPLAIN'					=> 'Unten sind alle mChat-Voreinstellungen der ausgewählten Benutzer aufgelistet. Einstellungen, für deren Anpassung die ausgewählten Benutzer keine Berechtigung haben, sind deaktiviert. Diese Einstellungen können geändert werden in der mChat Konfiguration <em>Globale Benutzereinstellungen</em>.',
 
 	// ACP settings
+	'MCHAT_ACP_CHARACTERS'							=> 'Zeichen',
+	'MCHAT_ACP_MESSAGES'							=> 'Nachrichten',
+	'MCHAT_ACP_SECONDS'								=> 'Sekunden',
+	'MCHAT_ACP_HOURS'								=> 'Stunden',
+	'MCHAT_ACP_DAYS'								=> 'Tage',
+	'MCHAT_ACP_WEEKS'								=> 'Wochen',	
 	'MCHAT_ACP_GLOBALSETTINGS_TITLE'				=> 'mChat Globale Einstellungen',
 	'MCHAT_ACP_GLOBALUSERSETTINGS_TITLE'			=> 'mChat Globale Benutzereinstellungen',
 	'MCHAT_VERSION'									=> 'Version',
@@ -70,9 +76,10 @@ $lang = array_merge($lang, array(
 	'MCHAT_LIVE_UPDATES'							=> 'Live-Aktualiserung von bearbeiteten und gelöschten Nachrichten',
 	'MCHAT_LIVE_UPDATES_EXPLAIN'					=> 'Wenn ein Benutzer Nachrichten bearbeitet oder löscht, werden die Änderungen für alle live angezeigt, ohne dass sie die Seite aktualisieren müssen. Deaktiviere das, falls du Leistungsprobleme bekommst.',
 	'MCHAT_PRUNE'									=> 'Aktiviere automatisches Leeren',
-	'MCHAT_PRUNE_EXPLAIN'			   				=> 'Die Nachrichtentabelle wird alle 24 Stunden geleert.',
+	'MCHAT_PRUNE_GC'								=> 'Intervall für Nachrichten-Löschaufgabe',
+	'MCHAT_PRUNE_GC_EXPLAIN'						=> 'Die Zeit in Sekunden, die vergehen muss, ehe die nächste Löschung von Nachrichten ausgelöst wird. Hinweis: diese Einstellung steuert, <em>wann</em> Nachrichten geprüft werden, ob sie gelöscht werden können. Sie steuert <em>nicht</em>, <em>welche</em> Nachrichten gelöscht werden. <em>Standard ist 86400 = 24 Stunden.</em>',
 	'MCHAT_PRUNE_NUM'								=> 'Anzahl verbleibender Nachrichten nach dem Leeren',
-	'MCHAT_PRUNE_NUM_EXPLAIN'						=> 'Du kannst eine Anzahl einstellen, um eine feste Anzahl von Nachrichten zu behalten (Beispiel: <em>42</em>), oder eine Zeitperiode (Beispiele: <em>24 Stunden</em>, <em>5 Tage</em>, <em>2 Wochen</em>, <em>1 Monat</em>). Alle älteren Nachrichten werden gelöscht.',
+	'MCHAT_PRUNE_NUM_EXPLAIN'						=> 'Verwende die Einstellung „Nachrichten“, um eine festgelegte Anzahl von Nachrichten zu behalten. Verwende „Stunden“, „Tage“ oder „Wochen“, und alle Nachrichten, die älter sind als die festgelegte Zeitperiode werden gelöscht.',
 	'MCHAT_PRUNE_NOW'								=> 'Jetzt die Nachrichten löschen',
 	'MCHAT_PRUNE_NOW_CONFIRM'						=> 'Löschen der Nachrichten bestätigen',
 	'MCHAT_PRUNED'									=> '%1$d mChat Nachrichten wurden gelöscht.',
@@ -85,7 +92,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_MESSAGE_NUM_ARCHIVE'						=> 'Nachrichtenanzahl zur Anzeige auf der Archivseite',
 	'MCHAT_MESSAGE_NUM_ARCHIVE_EXPLAIN'				=> 'Die maximale Anzahl an Nachrichten, die je Seite auf der Archivseite angezeigt werden sollen.<br /><em>Du bist beschränkt auf Einstellungen zwischen 10 und 100. Standard ist 25.</em>',
 	'MCHAT_FLOOD_TIME'								=> 'Überflutungszeit',
-	'MCHAT_FLOOD_TIME_EXPLAIN'						=> 'Die Zeit in Sekunden, die ein Benutzer warten muß, bis er eine neue Nachricht im mChat absenden kann.<br /><em>Empfohlen sind 5 bis 30, stelle 0 ein, um die Funktion zu deaktivieren</em>',
+	'MCHAT_FLOOD_TIME_EXPLAIN'						=> 'Die Zeit in Sekunden, die ein Benutzer warten muß, bis er eine neue Nachricht im mChat absenden kann.<br /><em>Begrenzt auf 0 bis 60 Sekunden. Standard ist 0. Stelle 0 ein, um die Funktion zu deaktivieren</em>',
 	'MCHAT_EDIT_DELETE_LIMIT'						=> 'Zeitbegrenzung für bearbeiten und löschen von Nachrichten',
 	'MCHAT_EDIT_DELETE_LIMIT_EXPLAIN'				=> 'Nachrichten, die älter sind als die hier angegebene Anzahl Sekunden können nicht mehr durch den Verfasser bearbeitet oder gelöscht werden.<br />Benutzer mit <em>Berechtigung zum bearbeiten/löschen sowie mit Moderatorberechtigung sind ausgenommen</em> von dieser Begrenzung.<br />Um unbegrenzte Bearbeitung und Löschen zu erlauben, setze auf 0.',
 	'MCHAT_MAX_MESSAGE_LENGTH'						=> 'Maximale Nachrichtenlänge',

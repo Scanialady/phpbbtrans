@@ -1,13 +1,14 @@
 <?php
 
 /**
- *
- * @package phpBB Extension - mChat [German]
- * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
- * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
- */
+*
+* @version $Id$
+* @package phpBB Extension - mChat [German]
+* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @copyright (c) 2016 kasimi - https://kasimi.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -50,6 +51,7 @@ $lang = array_merge($lang, array(
 	'ACL_U_MCHAT_BBCODE'					=> 'Kann BBCodes benutzen',
 	'ACL_U_MCHAT_SMILIES'					=> 'Kann Smilies benutzen',
 	'ACL_U_MCHAT_URLS'						=> 'Kann automatisch geparste URLs senden',
+	
 	'ACL_U_MCHAT_AVATARS'					=> 'Kann anpassen <em>Avatare anzeigen</em>',
 	'ACL_U_MCHAT_CAPITAL_LETTER'			=> 'Kann anpassen <em>Erster Buchstabe groß</em>',
 	'ACL_U_MCHAT_CHARACTER_COUNT'			=> 'Kann anpassen <em>Zeige Zeichenanzahl an</em>',

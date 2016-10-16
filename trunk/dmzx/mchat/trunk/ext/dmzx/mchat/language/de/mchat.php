@@ -1,13 +1,13 @@
 <?php
 
 /**
- * version: $ID$
- * @package phpBB Extension - mChat [German]
- * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
- * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
- */
+* @version $ID$
+* @package phpBB Extension - mChat [German]
+* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @copyright (c) 2016 kasimi - https://kasimi.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -38,6 +38,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_ADD'						=> 'Senden',
 	'MCHAT_ARCHIVE'					=> 'Archiv',
 	'MCHAT_ARCHIVE_PAGE'			=> 'mChat Archiv',
+	'MCHAT_CUSTOM_PAGE'				=> 'mChat',	
 	'MCHAT_BBCODES'					=> 'BBCodes',
 	'MCHAT_CUSTOM_BBCODES'			=> 'Eigene BBCodes',
 	'MCHAT_DELCONFIRM'				=> 'Bist du sicher, dass du diese Nachricht löschen willst?',

@@ -1,13 +1,13 @@
 <?php
 
 /**
- * version: $ID$
- * @package phpBB Extension - mChat [German]
- * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
- * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
- */
+* @version $ID$
+* @package phpBB Extension - mChat [German]
+* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @copyright (c) 2016 kasimi - https://kasimi.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -42,9 +42,8 @@ $lang = array_merge($lang, array(
 	'ACP_MCHAT_GLOBALUSERSETTINGS'	=> 'Globale Benutzereinstellungen',
 
 	// Log entries (%1$s is replaced with the user name who triggered the event)
-	'LOG_MCHAT_CONFIG_UPDATE'				=> '<strong>mChat-Konfiguration geändert</strong><br />» %1$s',
+	'LOG_MCHAT_CONFIG_UPDATE'		=> '<strong>mChat-Konfiguration geändert</strong><br />» %1$s',
 	'LOG_MCHAT_TABLE_PRUNED'		=> '<strong>mChat Nachrichten geleert: %2$d</strong><br />» %1$s',
-	'LOG_MCHAT_TABLE_PRUNE_FAIL'	=> '<strong>Leeren von mChat fehlgeschlagen: fehlerhafte Zeitperiode</strong><br />» %1$s',
 	'LOG_MCHAT_TABLE_PURGED'		=> '<strong>mChat Nachrichten gelöscht</strong><br />» %1$s',
 	'LOG_DELETED_MCHAT'				=> '<strong>mChat Nachricht gelöscht</strong><br />» %1$s',
 	'LOG_EDITED_MCHAT'				=> '<strong>mChat Nachricht bearbeitet</strong><br />» %1$s',

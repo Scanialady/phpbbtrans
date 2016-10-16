@@ -1,13 +1,13 @@
 <?php
 
 /**
- * version: $ID$
- * @package phpBB Extension - mChat [German]
- * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
- * @copyright (c) 2016 kasimi
- * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
- *
- */
+* @version $ID$
+* @package phpBB Extension - mChat [German]
+* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @copyright (c) 2016 kasimi - https://kasimi.net
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
 
 if (!defined('IN_PHPBB'))
 {
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_INPUT_AREA'				=> 'Eingabefeld',
 	'MCHAT_TEXT_AREA'				=> 'Textbereich',
 	'MCHAT_POSTS'					=> 'Zeige neue Beiträge an (derzeit alle deaktiviert, können im ACP in den Allgemeinen Einstellungen von mChat aktiviert werden)',
-	'MCHAT_CHARACTER_COUNT'			=> 'Zeige die Anzahl der Zeichen beim Schreiben einer Nachricht an',
+	'MCHAT_DISPLAY_CHARACTER_COUNT'	=> 'Zeige die Anzahl der Zeichen beim Schreiben einer Nachricht an',
 	'MCHAT_RELATIVE_TIME'			=> 'Zeige die relative Zeit für neue Nachrichten an',
 	'MCHAT_RELATIVE_TIME_EXPLAIN'	=> 'Zeigt „gerade eben“, „vor einer Minute“ und so weiter für jede Nachricht an. Setze auf <em>Nein</em>, um immer das volle Datum zu sehen.',
 	'MCHAT_PAUSE_ON_INPUT'			=> 'Pause während der Eingabe',
