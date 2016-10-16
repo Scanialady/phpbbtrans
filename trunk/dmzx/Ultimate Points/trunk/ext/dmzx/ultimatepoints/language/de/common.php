@@ -3,7 +3,7 @@
 *
 * @version $Id$
 * @package phpBB Extension - Ultimate Points (DEUTSCH)
-* @copyright (c) 2015 dmzx & posey - http://www.dmzx-web.net
+* @copyright (c) 2016 dmzx & posey - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -161,7 +161,7 @@ $lang = array_merge($lang, array(
 	'LOTTERY_NO_WINNERS'				=> 'Bis jetzt hat niemand in der Lottery gewonnen.',
 	'LOTTERY_PLAYERS'					=> 'Mitspieler bisher',
 	'LOTTERY_PM_BODY'					=> 'Herzlichen Glückwunsch! Du hast %1$s in unserer Lotterie gewonnen! %2$s',
-	'LOTTERY_PM_CASH_ENABLED'			=> 'Der Gewinn wurde auf dein Konto überwiesen. Viel Spaß damit.<br /><br /><i>Die Lotterie Verwaltung</i>',
+	'LOTTERY_PM_CASH_ENABLED'			=> 'Der Gewinn wurde auf dein Konto überwiesen. Viel Spaß damit.<i>Die Lotterie Verwaltung</i>',
 	'LOTTERY_PM_COMMISION'				=> 'Die Lotterieverwaltung',
 	'LOTTERY_PM_SUBJECT'				=> 'Du hast in der Lotterie gewonnen!',
 	'LOTTERY_PURCHASE_TICKET'			=> 'Los kaufen',
@@ -205,7 +205,7 @@ $lang = array_merge($lang, array(
 	'POINTS_BUPOINTS_TOTAL'				=> 'Bankkonten : %1$s',
 	'POINTS_CASH_ON_HAND'				=> 'Barvermögen',
 	'POINTS_COPYRIGHT'					=> 'Ultimate Points von <a href="http://die-muellers.org" onclick="window.open(this.href); return false">femu</a> &amp; <a href="http://www.spieleresidenz.de" onclick="window.open(this.href); return false">Wuerzi</a> v',
-	'POINTS_COPYRIGHTS'					=> '&copy; 2015 <a href="http://www.dmzx-web.net" onclick="window.open(this.href); return false">dmzx &amp; posey</a>',
+	'POINTS_COPYRIGHTS'                    => '&copy; 2016 <a href="http://www.dmzx-web.net" onclick="window.open(this.href); return false">dmzx &amp; posey</a>',
 	'POINTS_DESCRIPTION'				=> 'Beschreibung',
 	'POINTS_DISABLED'					=> 'Ultimate Points ist derzeit deaktiviert.',
 	'POINTS_DONATE'						=> '[Spenden]',
@@ -298,8 +298,8 @@ $lang = array_merge($lang, array(
 	'TRANSFER_FEE'						=> 'Überweisungsgebühren',
 	'TRANSFER_FEE_EXPLAIN'				=> 'Prozentualer Betrag, der von deiner Überweisung einbehalten wird',
 	'TRANSFER_NO_USER_RETURN'			=> '<strong>Der gewählte Benutzername ist fehlerhaft!</strong>',
-	'TRANSFER_PM_BODY'					=> 'Du hast eine Spende in Höhe von %1$s %2$s erhalten, mit dem folgenden Kommentar: <br /><i>%3$s</i>',
-	'TRANSFER_PM_SUBJECT'				=> 'Du hast eine Spende erhalten!',
+	'TRANSFER_PM_BODY'					=> 'Du hast eine Spende in Höhe von %1$s %2$s erhalten, mit dem folgenden Kommentar: <i>%3$s</i>',
+	'TRANSFER_PM_SUBJECT'				=> 'Du hast eine Spende von %1$s %2$s erhalten.',
 	'TRANSFER_REASON_MINPOINTS'			=> 'Du hast nicht genug %1$s für diese Überweisung.',
 	'TRANSFER_REASON_TRANSFER'			=> 'Der Administrator hat Überweisungen deaktivert',
 	'TRANSFER_REASON_TRANSUCC'			=> 'Du hast erfolgreich <strong>%1$s %2$s</strong> an <strong>%3$s</strong> überwiesen!',
@@ -316,6 +316,17 @@ $lang = array_merge($lang, array(
 	'UP_ULTIMATE_POINTS_NAME_EXPLAIN'	=> 'Mit dieser Extension gibst du deinen Mitgliedern die Möglichkeit, Punkte zu sammeln und auszugeben. Klicke auf die untenstehenden Aktionen, um das Gewünschte durchzuführen. Es wird empfohlen, <strong>Zeige alle Ergebnisse</strong> zu aktivieren.<br /><br />Viel Spaß!',
 	'UP_UPDATE_SUCCESFUL'				=> 'Die Tabellen wurden erfolgreich aktualisiert',
 
+	'ULTIMATEPOINTS_VERSION_CHECK'		=> 'Ultimate Points Version Check',
+	'ULTIMATEPOINTS_AUTHOR'				=> 'Autoren',
+	'ULTIMATEPOINTS_ANNOUNCEMENT_TOPIC'	=> 'Release-Ankündigung',
+	'ULTIMATEPOINTS_CURRENT_VERSION'	=> 'Derzeitige Version',
+	'ULTIMATEPOINTS_DOWNLOAD_LATEST'	=> 'Download aktuelle Version',
+	'ULTIMATEPOINTS_DOWNLOAD'			=> 'Download',
+	'ULTIMATEPOINTS_LATEST_VERSION'		=> 'Aktuelle Version',
+	'ULTIMATEPOINTS_NOT_UP_TO_DATE'		=> '%s ist nicht aktuell',
+	'ULTIMATEPOINTS_RELEASE_ANNOUNCEMENT' => 'Ankündigungsbeitrag',
+	'ULTIMATEPOINTS_UP_TO_DATE'			=> '%s ist aktuell',	
+
 	'WARN_USER_POINTS'					=> 'Zusätzlich wurden %1$s %2$s von deinem Konto abgezogen!',
-	'WARN_MOD_POINTS'					=> 'Zusätzlich wurden %1$s %2$s von %3$s’s Konto abgezogen!',
+	'WARN_MOD_POINTS'					=> 'Zusätzlich wurden %1$s %2$s von %3$s’s Konto abgezogen!',	
 ));

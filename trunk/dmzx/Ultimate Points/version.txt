@@ -1,1 +1,1 @@
-Ultimate Points 1.1.5 30.05.16 für phpBB 3.1.9
+Ultimate Points 1.1.65 16.10.16 für phpBB 3.1.9/3.2.x
