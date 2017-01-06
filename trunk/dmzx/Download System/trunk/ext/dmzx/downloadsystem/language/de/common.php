@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'EDS_UPLOAD'						=> 'Upload',
 	'EDS_UPLOADS'						=> 'Downloadsystem Uploadbereich',
 	'EDS_UPLOAD_SECTION'				=> 'Uploadbereich',
-	'EDS_UPLOAD_MESSAGE'				=> 'Upload here your file in correct category.',
+	'EDS_UPLOAD_MESSAGE'				=> 'Lade hier deine Datei in die richtige Kategorie hoch.',
 	'EDS_FILESIZE'						=> 'Dateigröße',
 	'EDS_CAT_NOT_EXIST'					=> 'Die ausgewählte Kategorie existiert nicht!',
 	'EDS_BACK_DOWNLOADS'				=> 'Zurück zur Downloadübersicht',
@@ -89,8 +89,10 @@ $lang = array_merge($lang, array(
 	'EDS_NO_DOWNLOAD'					=> 'Du hast nicht die Berechtigung, Dateien aus dem Downloadsystem herunterzuladen',
 	'EDS_NO_UPLOAD'						=> 'Du hast nicht die Berechtigung, den Uploadbereich zu benutzen',
 	'EDS_NO_DIRECT_DL'					=> 'Es ist dir nicht erlaubt, Dateien herunterzuladen',
-	'EDS_CAT'							=> 'Eine Kategorie',
+	'EDS_CAT'							=> '%d Kategorie',
 	'EDS_CATS'							=> '%d Kategorien',
+	'EDS_SUB_CATEGORY'					=> 'und %d Unterkategorie',
+	'EDS_SUB_CATEGORIES'				=> 'und %d Unterkategorien',	
 	'EDS_CURRENT_VERSION'				=> 'Derzeitige Version',
 	'EDS_NEW_TITLE'						=> 'Titel',
 	'EDS_NEW_TITLE_EXPLAIN'				=> 'Titel für deinen neuen Download.',
@@ -104,7 +106,9 @@ $lang = array_merge($lang, array(
 	'EDS_NEW_FILENAME'					=> 'Dateiname',
 	'EDS_NEW_FILENAME_EXPLAIN'			=> 'Wähle die Datei zum Hochladen aus.',
 	'EDS_NEW_DOWNLOAD_SIZE'				=> 'Die maximale Dateigröße ist <strong>%1$s %2$s</strong>! Wegen der Zeit, die du zum Hochladen brauchst, kann dieser Wert niedriger sein!',
-
+	'EDS_SUBCAT_FILE'					=> '1 Datei',
+	'EDS_SUBCAT_FILES'					=> '%1$d Dateien',
+	
 	// ACP
 	'ACP_ADD'							=> 'Hinzufügen',
 	'ACP_ALL_DOWNLOADS'					=> 'Alle Downloads',
