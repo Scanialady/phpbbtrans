@@ -1,0 +1,9 @@
+Subject: {SUBJECT}
+
+{USERNAME},
+
+{MESSAGE}
+
+{U_DONATE}
+
+{EMAIL_SIG}
