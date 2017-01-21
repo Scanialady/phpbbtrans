@@ -249,6 +249,7 @@ $lang = array_merge($lang, array(
 	'POINTS_TOTAL'						=> 'Total Cash on Hand: %1$s %2$s',
 	'POINTS_TRANSFER'					=> 'Transfer',
 	'POINTS_VIEWING'					=> 'Browsing points console',
+	'POINTS_TRANSFER_RECIEVED'			=> 'Donations received',
 
 	'ROBBERY_AMOUNT'					=> 'Amount',
 	'ROBBERY_AMOUNTLOSE'				=> 'If you are not successful, you will loose an additional <strong> %s percent</strong> of the value you wanted to rob!<br /><br />',
