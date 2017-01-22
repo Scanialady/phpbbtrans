@@ -1,0 +1,2 @@
+Did_you_know_1_0_3 und 1_0_4 für phpBB 3.1.6 ff
+1.0.5 für phpBB 3.2.0

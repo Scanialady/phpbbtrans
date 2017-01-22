@@ -1,8 +1,9 @@
 <?php
 /**
 *
-* @package phpBB Extension - Did You Know
-* @copyright (c) 2015 dmzx - http://www.dmzx-web.net
+* @version $ID$
+* @package phpBB Extension - Form Maker/Creator [Deutsch]
+* @copyright (c) 2017 dmzx - http://www.dmzx-web.net & michaelo - http://www.phpbbreland.com
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -31,12 +32,10 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+//
+// Some characters for use
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, array(
-	'DYK_TITLE'							=> 'Schon gewusst?',
-	'DYK_HIDE'							=> 'Verstecken',
-	'DIDYOUKNOW_HIDE_EXPLAIN'			=> 'Verstecken bis du entscheidest, es wieder sehen zu wollen, indem du es im Persönlichen Bereich wieder aktivierst',
-	'DIDYOUKNOW'						=> 'Zeige Schon Gewusst in der Forenansicht (viewforum)',
-	'DIDYOUKNOW_HIDE'					=> 'Die Schon Gewusst-Nachricht <strong>ist nun versteckt</strong> bis du entscheidest, sie wieder sehen zu wollen, indem du sie im Persönlichen Bereich wieder aktivierst',
-	'DIDYOUKNOW_BACK_TO_INDEX' 			=> 'Klicke hier um zum Index zurückzukehren',
+	'ACL_A_FORM_MAKER'			=> 'Kann Form Maker verwalten',
 ));
