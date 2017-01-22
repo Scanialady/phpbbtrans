@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* @version $ID$
+* @version $Id$
 * @package phpBB Extension - Set forum width [Deutsch]
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2

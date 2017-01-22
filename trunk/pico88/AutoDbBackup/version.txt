@@ -1,1 +1,0 @@
-Autodbbackup 1.1.0 für phpBB 3.1.2-3.1.7

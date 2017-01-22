@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* @version $ID$
+* @version $Id$
 * @package phpBB Extension - Form Maker/Creator [Deutsch]
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net & michaelo - http://www.phpbbreland.com
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2

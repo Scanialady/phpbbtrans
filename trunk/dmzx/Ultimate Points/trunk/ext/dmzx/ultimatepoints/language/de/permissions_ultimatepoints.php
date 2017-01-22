@@ -1,7 +1,7 @@
 <?php
 /**
 *
-* @version $Id
+* @version $Id$
 * @package phpBB Extension - Ultimate Points (DEUTSCH)
 * @copyright (c) 2016 dmzx & posey - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2

@@ -1,7 +1,7 @@
 <?php
 
 /**
-* @version $ID$
+* @version $Id$
 * @package phpBB Extension - mChat [German]
 * @copyright (c) 2016 dmzx - http://www.dmzx-web.net
 * @copyright (c) 2016 kasimi - https://kasimi.net
