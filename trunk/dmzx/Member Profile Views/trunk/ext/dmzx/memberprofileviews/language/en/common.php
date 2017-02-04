@@ -2,7 +2,7 @@
 /**
 *
 * @package phpBB Extension - Member Profile Views
-* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @copyright (c) 2015 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -37,5 +37,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'MEMBER_PROFILE_VIEW'				=> 'Member Profile Views',
+	'MEMBER_PROFILE_VIEW'				=> 'Member Profile Views Total',
+	'MEMBER_PROFILE_TEXT'				=> 'Last <strong>%d</strong> members that viewed your profile',
 ));

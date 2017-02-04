@@ -1,16 +1,12 @@
 <?php
 /**
 *
-* @version $Id$
-* @package phpBB Extension - Member Profile Views [Deutsch]
-* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @package phpBB Extension - Image Upload
+* @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
-/**
-* DO NOT CHANGE
-*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -34,10 +30,14 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ‚ ‘ ’ « » „ “ ” …
+// ’ » “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'MEMBER_PROFILE_VIEW'				=> 'Aufrufe Mitgliederprofil gesamt',
-	'MEMBER_PROFILE_TEXT'				=> 'Die letzten <strong>%d</strong> Mitglieder, die dein Profil angesehen haben',
+	'ACP_IMAGE_UPLOAD'			=> 'Image Upload',
+	'ACP_IMAGE_UPLOAD_CONFIG'	=> 'Configuration',
+	// Log
+	'LOG_IMAGEUPLOAD_ADD'		=> '<strong>Added new image</strong><br>» %1$s',
+	'LOG_IMAGEUPLOAD_SETTINGS'	=> '<strong>Image Upload configuration changed</strong>',
+	'LOG_IMAGEUPLOAD_DELETED'	=> '<strong>Deleted image</strong><br>» %1$s',
 ));

@@ -1,16 +1,12 @@
 <?php
 /**
 *
-* @version $Id$
-* @package phpBB Extension - Member Profile Views [Deutsch]
-* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @package phpBB Extension - File Upload
+* @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
 
-/**
-* DO NOT CHANGE
-*/
 if (!defined('IN_PHPBB'))
 {
 	exit;
@@ -33,11 +29,10 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
-// Some characters you may want to copy&paste:
-// ‚ ‘ ’ « » „ “ ” …
-//
+// Some characters for use
+// ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'MEMBER_PROFILE_VIEW'				=> 'Aufrufe Mitgliederprofil gesamt',
-	'MEMBER_PROFILE_TEXT'				=> 'Die letzten <strong>%d</strong> Mitglieder, die dein Profil angesehen haben',
+	'ACL_U_FILE_UPLOAD'	=> 'Kann mit File Upload Dateien hochladen',
+	'ACL_U_FILEUPLOAD'		=> 'Datei-Upload',
 ));

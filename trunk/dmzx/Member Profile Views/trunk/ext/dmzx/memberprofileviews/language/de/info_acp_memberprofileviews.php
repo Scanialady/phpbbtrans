@@ -2,8 +2,8 @@
 /**
 *
 * @version $Id$
-* @package phpBB Extension - Member Profile Views [Deutsch]
-* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @package phpBB Extension - Member Profile Views (deutsch)
+* @copyright (c) 2015 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -38,6 +38,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'MEMBER_PROFILE_VIEW'				=> 'Aufrufe Mitgliederprofil gesamt',
-	'MEMBER_PROFILE_TEXT'				=> 'Die letzten <strong>%d</strong> Mitglieder, die dein Profil angesehen haben',
+	'MEMBERPROFILEVIEWS_SETTING'				=> 'Setze einen Wert für Mitgliederprofil-Aufrufe',
+	'MEMBERPROFILEVIEWS_SETTING_EXPLAIN'		=> 'Der Wert ist einstellbar zwischen 2 und 255 Mitglieder. <br /><em>Standard ist 100</em>',
 ));

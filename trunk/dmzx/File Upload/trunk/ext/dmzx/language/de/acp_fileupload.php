@@ -1,9 +1,8 @@
 <?php
 /**
 *
-* @version $Id$
-* @package phpBB Extension - Member Profile Views [Deutsch]
-* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @package phpBB Extension - File Upload
+* @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -34,10 +33,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ‚ ‘ ’ « » „ “ ” …
+// ’ » “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'MEMBER_PROFILE_VIEW'				=> 'Aufrufe Mitgliederprofil gesamt',
-	'MEMBER_PROFILE_TEXT'				=> 'Die letzten <strong>%d</strong> Mitglieder, die dein Profil angesehen haben',
+	'ACP_FILEUPLOAD_SAVED'					=> 'File Upload Einstellungen gespeichert',
+	'ACP_FILEUPLOAD_VERSION'				=> 'Version',
+	'ACP_FILE_UPLOAD_CONFIGURATION'		=> 'File Upload Konfiguration',
+	'ACP_FILEUPLOAD_ENABLE'				=> 'Aktiviere File Upload',
+	'ACP_FILEUPLOAD_ENABLE_EXPLAIN'		=> 'Globale Einstellung um den Datei-Upload zu aktivieren.',
+	'ACP_FILEUPLOAD_NUMBER'				=> 'Größe des Uploads',
+	'ACP_FILEUPLOAD_NUMBER_EXPLAIN'		=> 'Setze hier die erlaubte Größe der Uploads in MB. Standard ist 2 MB.',
+	'ACP_FILEUPLOAD_NEW_DOWNLOAD_SIZE'		=> 'Die maximale Größe, die deine php.ini erlaubt, ist <strong>%1$s %2$s</strong>!',
 ));
