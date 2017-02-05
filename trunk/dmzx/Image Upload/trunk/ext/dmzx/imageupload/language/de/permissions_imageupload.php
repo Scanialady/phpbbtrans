@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* @version $Id$
 * @package phpBB Extension - Image Upload
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -30,7 +31,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters for use
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, array(
 	'ACL_U_IMAGE_UPLOAD'	=> 'Kann Dateien in Image Upload hochladen',

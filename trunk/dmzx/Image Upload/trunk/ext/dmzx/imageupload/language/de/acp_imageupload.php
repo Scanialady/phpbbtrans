@@ -1,7 +1,8 @@
 <?php
 /**
 *
-* @package phpBB Extension - Image Upload
+* @version $Id$
+* @package phpBB Extension - Image Upload (deutsch)
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
