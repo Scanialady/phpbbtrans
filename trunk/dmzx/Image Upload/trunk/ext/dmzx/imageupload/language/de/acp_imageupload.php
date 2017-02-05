@@ -33,7 +33,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -57,4 +57,7 @@ $lang = array_merge($lang, array(
 		1 => '%s Bild',
 		2 => '%s Bilder',
 	),
+	'ACP_IMAGEUPLOAD_SORT_USERNAME'			=> 'Benutzername',
+	'ACP_IMAGEUPLOAD_SORT_DATE'				=> 'Datum',
+	'ACP_IMAGEUPLOAD_NOT_SELECTED'			=> 'Keine Bilder ausgewählt',		
 ));
