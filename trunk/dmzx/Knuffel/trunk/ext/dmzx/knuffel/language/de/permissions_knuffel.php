@@ -34,11 +34,5 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
-	'ACP_KNUFFEL'						=> 'Knuffel',
-	'ACP_KNUFFEL_SETTINGS'				=> 'Knuffel settings',
-	// Logs
-	'LOG_KNUFFEL_DELETE_HIGHSCORES'		=> '<strong>Knuffel Highscores were deleted</strong>',
-	'LOG_KNUFFEL_DELETE_ALL_HIGHSCORES'	=> '<strong>Knuffel Highscores and Alltime Highscores were deleted</strong>',
-	'LOG_KNUFFEL_POINTS'				=> '<strong>Knuffel points settings were updated</strong>',
-	'LOG_KNUFFEL_SETTINGS'				=> '<strong>Knuffel settings updated</strong>',
+	'ACL_U_USE_KNUFFEL'		=> 'Can play Knuffel game',
 ));

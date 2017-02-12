@@ -37,10 +37,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'KNUFFEL_COPY'				=> 'Knuffel &copy; by <a href="http://www.spieleresidenz.de"> Wuerzi</a>',
-	'KNUFFEL_COPY_DMZX'			=> '&copy; 2015 <a href="http://www.dmzx-web.net" onclick="window.open(this.href); return false">dmzx-web.net</a>',
 	'KNUFFEL_EXT_VERSION'		=> 'Version',
-	'KNUFFEL_CREDITS'			=> 'The diceroll is animated using the D6-class by <a href="http://eposic.org">eposic.org</a>',
 	'KNUFFEL_DISABLE_MESSAGE'	=> 'Sorry, the Knuffel game is currently disabled!',
 	'KNUFFEL_NO_HIGHSCORES'		=> 'There are currently no high scores',
 	'KNUFFEL_PLAYING'			=> 'Playing Knuffel',
@@ -76,19 +73,19 @@ $lang = array_merge($lang, array(
 	'SIX'				 		=> 'Sixes',
 	'TOAK'						=> '3 of a kind',
 	'FOAK'						=> '4 of a kind',
-	'FH'							=> 'Full House',
+	'FH'						=> 'Full House',
 	'SMALL'						=> 'Small Straight',
 	'LARGE'						=> 'Large Straight',
-	'CHANCE'						=> 'Chance',
+	'CHANCE'					=> 'Chance',
 	'SUM1'						=> 'Sum',
 	'BONUS'						=> '<b>Bonus</b> (if 63 or more)<b>:</b>',
-	'SUMTOP'						=> 'Sum Top:',
+	'SUMTOP'					=> 'Sum Top:',
 	'SUM2'						=> 'Sum:',
 	'UPPERSUM'					=> 'Sum Top:',
 	'SUM'				 		=> 'Total:',
 	'COLUMNSUM'					=> 'Sum Column:',
 	'FINALSUM'					=> 'Final Score:',
-	'RESULT'						=> 'Result',
+	'RESULT'					=> 'Result',
 
 	// Buttons
 	'KNU_BUTTON_ROLL'			=> '1st throw',
