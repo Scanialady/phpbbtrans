@@ -1,7 +1,8 @@
 <?php
 /**
 *
-* @package phpBB Extension - Knuffel
+* @version $Id$
+* @package phpBB Extension - Knuffel (deutsch)
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -31,8 +32,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters for use
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, array(
-	'ACL_U_USE_KNUFFEL'		=> 'Can play Knuffel game',
+	'ACL_U_USE_KNUFFEL'		=> 'Kann Knuffel spielen',
 ));

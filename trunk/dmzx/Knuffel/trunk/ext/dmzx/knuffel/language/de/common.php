@@ -2,7 +2,7 @@
 /**
 *
 * @version $Id$
-* @package phpBB Extension - Knuffel
+* @package phpBB Extension - Knuffel (deutsch)
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -34,19 +34,16 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'KNUFFEL_COPY'				=> 'Knuffel &copy; by <a href="http://www.spieleresidenz.de"> Wuerzi</a>',
-	'KNUFFEL_COPY_DMZX'			=> '&copy; 2015 <a href="http://www.dmzx-web.net" onclick="window.open(this.href); return false">dmzx-web.net</a>',
 	'KNUFFEL_EXT_VERSION'		=> 'Version',
-	'KNUFFEL_CREDITS'			=> 'The diceroll is animated using the D6-class by <a href="http://eposic.org">eposic.org</a>',
-	'KNUFFEL_DISABLE_MESSAGE'	=> 'Entschuldigung, aber Knuffel ist momentan abgeschaltet!',
+	'KNUFFEL_DISABLE_MESSAGE'	=> 'Entschuldigung, aber Knuffel ist momentan abgeschaltet!!',
 	'KNUFFEL_NO_HIGHSCORES'		=> 'Aktuell keine Highscores vorhanden',
 	'KNUFFEL_PLAYING'			=> 'Spielt momentan Knuffel',
-	'KNUFFEL_PLAYERS'			=> 'Anzahl Knuffel Spieler  %1$s',
-	'KNUFFEL_CHEAT'				=> '<strong>Fehler!</strong> Du kannst einen Rekord nur 1x senden!',
+	'KNUFFEL_PLAYERS'			=> 'Anzahl Knuffelspieler %1$s',
+	'KNUFFEL_CHEAT'				=> '<strong>Fehler!</strong> Du kannst einen Rekord nur einmal senden!',
 	'KNUFFEL_PLAY'				=> 'Knuffel spielen',
 	'KNUFFEL_LINKS'				=> 'Knuffellinks',
 	'KNUFFEL_BACK_INDEX'		=> 'Zurück zur Forenübersicht',
@@ -74,13 +71,13 @@ $lang = array_merge($lang, array(
 	'THREE'						=> 'Dreier',
 	'FOUR'						=> 'Vierer',
 	'FIVE'						=> 'Fünfer',
-	'SIX'						=> 'Sechser',
+	'SIX'				 		=> 'Sechser',
 	'TOAK'						=> 'Dreierpasch',
 	'FOAK'						=> 'Viererpasch',
 	'FH'						=> 'Full House',
-	'SMALL'						=> 'Kleine Strasse',
-	'LARGE'               		=> 'Grosse Strasse',
-	'CHANCE'              		=> 'Chance',
+	'SMALL'						=> 'Kleine Straße',
+	'LARGE'						=> 'Große Straße',
+	'CHANCE'					=> 'Chance',
 	'SUM1'						=> 'Summe',
 	'BONUS'						=> '<b>Bonus</b> (bei 63 oder mehr)<b>:</b>',
 	'SUMTOP'					=> 'Summe oberer Teil:',
@@ -111,16 +108,16 @@ $lang = array_merge($lang, array(
 	'SORT_PLAYED'				=> 'Gespielt',
 
 	// UPS
-	'KNUFFEL_UPS_PLAY'			=> 'Knuffel spielen mit %1$s',
-	'KNUFFEL_UPS_JACKPOT_SCORE'	=> 'Knuffel Jackpot',
-	'KNUFFEL_UPS_NO_POINTS'		=> 'Du hast nicht genug %1$s zum spielen!',
-	'KNUFFEL_UPS_INFO'			=> '<strong>Informationen über die Spielekosten und was du ggf. beim Knuffeln gewinnen kannst:</strong>',
+	'KNUFFEL_UPS_PLAY'			=> 'Spiele Knuffel mit %1$s',
+	'KNUFFEL_UPS_JACKPOT_SCORE'	=> 'Knuffel-Jackpot',
+	'KNUFFEL_UPS_NO_POINTS'		=> 'Du hast nicht genug %1$s um Knuffel zu spielen!',
+	'KNUFFEL_UPS_INFO'			=> '<strong>Informationen über die Spielekosten und was du ggf. bei Knuffel gewinnen kannst:</strong>',
 	'KNUFFEL_UPS_COST'			=> 'Ein Knuffelspiel kostet:',
 	'KNUFFEL_UPS_JACKPOT'		=> 'Momentaner Jackpot: %1$s %2$s',
 	'KNUFFEL_UPS_BASE_JACKPOT'	=> 'Basisjackpot: %1$s %2$s',
-	'KNUFFEL_UPS_GIVE_JACKPOT'	=> 'Zu erreichende Mindestpunktzahl für Auszahlung Jackpot: %1$s Knuffel Points',
+	'KNUFFEL_UPS_GIVE_JACKPOT'	=> 'Zu erreichende Mindestpunktzahl für die Auszahlung des Jackpots: %1$s Knuffel-Punkte',
 	'KNUFFEL_UPS_USERGUIDE'		=> 'Nähere Informationen hierzu findest du in der ',
-	'KNUFFEL_UPS_NO_PAYOUT'		=> 'Schade, die erreichten Punkte sind nicht genug, um den Jackpot zu knacken.',
+	'KNUFFEL_UPS_NO_PAYOUT'		=> 'Schade, die erreichten Punkte genügen nicht, um den Jackpot zu knacken.',
 	'KNUFFEL_UPS_PAYOUT'		=> 'Gratuliere! Du hast den Jackpot in Höhe von %1$s %2$s geknackt.<br/>Der Gewinn wurde dir gutgeschrieben.',
 
 	// Knuffel Userguide
