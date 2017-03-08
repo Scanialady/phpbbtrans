@@ -1,1 +1,1 @@
-dmzx set forum width 1.0.0 für phpBB 3.2.x
+dmzx set forum width 1.0.0 and 1.0.1 für phpBB 3.2.x
