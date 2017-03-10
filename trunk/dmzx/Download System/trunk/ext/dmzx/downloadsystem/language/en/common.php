@@ -139,7 +139,7 @@ Have fun!',
 
 we have an updated download!
 
-[b]Title:[/b] %1$
+[b]Title:[/b] %1$s
 
 [b]Description:[/b] %2$s
 

@@ -140,7 +140,7 @@ Viel Spaß!',
 
 wir haben einen aktualisierten Download!
 
-[b]Titel:[/b] %1$
+[b]Titel:[/b] %1$s
 
 [b]Beschreibung:[/b] %2$s
 
