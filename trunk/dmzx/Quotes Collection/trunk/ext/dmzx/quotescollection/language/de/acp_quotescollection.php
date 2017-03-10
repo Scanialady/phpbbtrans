@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 //  ‚ ‘ ’ « » „ “ ” …
 //
 
-Release quotes$lang = array_merge($lang, array(
+$lang = array_merge($lang, array(
 	'ACP_DM_QC_ALL'						=> 'Alle',
 	'ACP_DM_QC_SORT_ID'					=> 'ID',
 	'ACP_DM_QC_SORT_AUTHOR'				=> 'Autor',
