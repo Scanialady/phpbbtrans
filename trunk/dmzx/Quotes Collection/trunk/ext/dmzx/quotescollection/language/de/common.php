@@ -2,7 +2,7 @@
 /**
 *
 * @version $Id$
-* @package phpBB Extension - Quotes Collection
+* @package phpBB Extension - Quotes Collection (deutsch)
 * @copyright (c) 2015 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+//  ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -46,9 +46,6 @@ $lang = array_merge($lang, array(
 	'DM_QC_ALL'					=> 'Zeige alle Zitate',
 	'DM_QC_NO_AUTHOR'			=> 'Unbekannter Autor',
 	'DM_QC_QUOTE_AUTHOR'		=> 'von %1$s',
-	'DM_QC_COPYRIGHT'			=> 'Powered by DM Quotes Collection',
-	'DM_QC_COPYRIGHT_DMZX'		=> '&copy;  2015 dmzx-web.net',
-	'DM_QC_COPYRIGHT_DMZX_TITLE'	=> 'dmzx-web.net',
 	'DM_QC_QUOTE'				=> 'Zitat',
 	'DM_QC_QUOTE_EXPLAIN'		=> 'Gib hier dein Zitat ein',
 	'DM_QC_QUOTES'				=> '<strong>Zitat:</strong>',
@@ -89,5 +86,5 @@ $lang = array_merge($lang, array(
 	'DM_QC_SORT_AUTHOR'			=> 'Autor',
 	'DM_QC_SORT_POSTER'			=> 'Verfasser',
 	'DM_QC_SORT_DATE'			=> 'Datum',
-
+    'DM_QC_VERSION'             => 'Version',
 ));

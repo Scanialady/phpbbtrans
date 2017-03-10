@@ -31,12 +31,11 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters for use
-// ’ » “ ” …
+//  ‚ ‘ ’ « » „ “ ” …
 
 $lang = array_merge($lang, array(
 	// Permissions
 	'ACL_U_DM_QC_ADD'		=> 'Kann Zitate hinzufügen',
 	'ACL_U_DM_QC_DELETE'	=> 'Kann eigene Zitate löschen',
 	'ACL_U_DM_QC_VIEW'		=> 'Kann Zitate sehen',
-	'ACL_A_DM_QC_MANAGE'	=> 'Kann Zitate verwalten'
 ));
