@@ -38,4 +38,5 @@ $lang = array_merge($lang, array(
 	'ACL_U_DM_QC_ADD'		=> 'Kann Zitate hinzufügen',
 	'ACL_U_DM_QC_DELETE'	=> 'Kann eigene Zitate löschen',
 	'ACL_U_DM_QC_VIEW'		=> 'Kann Zitate sehen',
+	'ACL_A_DM_QC_MANAGE' 	=> 'Kann Zitate verwalten'	
 ));

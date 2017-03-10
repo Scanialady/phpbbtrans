@@ -87,4 +87,5 @@ $lang = array_merge($lang, array(
 	'DM_QC_SORT_POSTER'			=> 'Verfasser',
 	'DM_QC_SORT_DATE'			=> 'Datum',
     'DM_QC_VERSION'             => 'Version',
+	'QUOTE_COLLAPSE_TITLE'		=> 'Zitate zuklappen',
 ));
