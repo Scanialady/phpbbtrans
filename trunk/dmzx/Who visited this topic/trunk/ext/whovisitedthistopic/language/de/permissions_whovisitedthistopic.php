@@ -34,12 +34,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ « » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'ACL_U_WHOVISITEDTHISTOPIC'					=> 'Kann „Who Visited This Topic“ in Themen sehen',
-	'ACL_U_WHOVISITEDTHISTOPIC_COUNT'			=> 'Kann den „Who Visited This Topic“-Zähler in Themen sehen',
-	'ACL_U_WHOVISITEDTHISTOPIC_PROFILE'			=> 'Kann „Who Visited This Topic“ in Profilen sehen',
-	'ACL_U_WHOVISITEDTHISTOPIC_SHOW_AVATAR'		=> 'Kann Avatare bei „Who Visited This Topic“ in Themen sehen',
+	'WHOVISITEDTHISTOPIC_INDEX'					=> 'Wer besuchte dieses Thema',
+	'ACL_U_WHOVISITEDTHISTOPIC'					=> 'Kann „Wer besuchte dieses Thema“ in Themen sehen',
+	'ACL_U_WHOVISITEDTHISTOPIC_COUNT'			=> 'Kann den „Wer besuchte dieses Thema“-Zähler in Themen sehen',
+	'ACL_U_WHOVISITEDTHISTOPIC_PROFILE'			=> 'Kann „Wer besuchte dieses Thema“ in Profilen sehen',
+	'ACL_U_WHOVISITEDTHISTOPIC_SHOW_AVATAR'		=> 'Kann Avatare bei „Wer besuchte dieses Thema“ in Themen sehen',
 ));
