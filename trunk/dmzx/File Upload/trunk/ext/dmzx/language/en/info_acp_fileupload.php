@@ -1,8 +1,7 @@
 <?php
 /**
 *
-* @version $Id$
-* @package phpBB Extension - File Upload (deutsch)
+* @package phpBB Extension - File Upload
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -31,14 +30,14 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ‚ ‘ ’ « » „ “ ” …
+// ’ » “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'ACP_FILE_UPLOAD'			=> 'File Upload',
-	'ACP_FILE_UPLOAD_CONFIG'	=> 'Konfiguration',
+	'ACP_FILE_UPLOAD_CONFIG'	=> 'Configuration',
 	// Log
-	'LOG_FILEUPLOAD_ADD'		=> '<strong>Neue Datei hinzugefügt</strong><br>» %1$s',
-	'LOG_FILEUPLOAD_SETTINGS'	=> '<strong>File Upload Konfiguration geändert</strong>',
-	'LOG_FILEUPLOAD_DELETED'	=> '<strong>Datei gelöscht</strong><br>» %1$s',
+	'LOG_FILEUPLOAD_ADD'		=> '<strong>Added new file</strong><br>» %1$s',
+	'LOG_FILEUPLOAD_SETTINGS'	=> '<strong>File Upload configuration changed</strong>',
+	'LOG_FILEUPLOAD_DELETED'	=> '<strong>Deleted file</strong><br>» %1$s',
 ));

@@ -1,7 +1,8 @@
 <?php
 /**
 *
-* @package phpBB Extension - File Upload
+* @version $Id$
+* @package phpBB Extension - File Upload (deutsch)
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -30,13 +31,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'FILEUPLOAD_UPLOAD'						=> 'Datei-Upload',
-	'FILEUPLOAD_UPLOAD_SECTION'				=> 'Datei-Upload-Bereich',
-	'FILEUPLOAD_UPLOAD_MESSAGE'				=> 'Lade deine Dateien hier hoch. (Beachte, dass dieser Ordner geleert wird, und alle Uploads werden protokolliert)',
+	'FILEUPLOAD_UPLOAD'							=> 'Datei-Upload',
+	'FILEUPLOAD_UPLOAD_SECTION'					=> 'Datei-Upload-Bereich',
+	'FILEUPLOAD_UPLOAD_MESSAGE'					=> 'Lade deine Dateien hier hoch. (Beachte, dass dieser Ordner geleert wird, und alle Uploads werden protokolliert)',
 	'FILEUPLOAD_NOT_ENABELD'					=> 'Datei-Upload ist nicht aktiviert',
 	'FILEUPLOAD_NEW_DOWNLOAD_SIZE'				=> 'Die maximale Dateigröße beträgt <strong>%1$s %2$s</strong>! Abhängig von der Zeit, die zum Hochladen benötigt wird, kann dieser Wert niedriger sein!',
 	'FILEUPLOAD_NO_FILENAME'					=> 'Du musst eine Datei für deinen Upload auswählen!',
@@ -47,6 +48,5 @@ $lang = array_merge($lang, array(
 	'FILEUPLOAD_SUCCEEDED'						=> 'Upload erfolgreich!',
 	'FILEUPLOAD_DIRECT_LINK'					=> 'Direkter Link',
 	'FILEUPLOAD_URL_LINK'						=> 'URL',
-	'FILEUPLOAD_FILE_LINK'						=> 'Datei',
-	'FILEUPLOAD_BY'							=> 'Datei hochgeladen von',
+	'FILEUPLOAD_BY'								=> 'Datei hochgeladen von',
 ));

@@ -1,7 +1,8 @@
 <?php
 /**
 *
-* @package phpBB Extension - File Upload
+* @version $Id$
+* @package phpBB Extension - File Upload (deutsch)
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -33,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -45,4 +46,19 @@ $lang = array_merge($lang, array(
 	'ACP_FILEUPLOAD_NUMBER'				=> 'Größe des Uploads',
 	'ACP_FILEUPLOAD_NUMBER_EXPLAIN'		=> 'Setze hier die erlaubte Größe der Uploads in MB. Standard ist 2 MB.',
 	'ACP_FILEUPLOAD_NEW_DOWNLOAD_SIZE'		=> 'Die maximale Größe, die deine php.ini erlaubt, ist <strong>%1$s %2$s</strong>!',
+	'ACP_FILEUPLOAD_REALLY_DELETE_FILE'		=> 'Datei wirklich löschen?',
+	'ACP_FILEUPLOAD_TITLE'					=> 'Dateiname',
+	'ACP_FILEUPLOAD_TITLE_REAL'				=> 'Realer Dateiname',
+	'ACP_FILEUPLOAD_PREVIEW'				=> 'Vorschau',
+	'ACP_FILEUPLOAD_WIDTH_HEIGHT'			=> 'Breite/Höhe',
+	'ACP_FILEUPLOAD_FOLDER_SIZE'			=> 'Gesamtgröße des Ordners',
+	'ACP_FILEUPLOAD_USERNAME'				=> 'Hochgeladen von',
+	'ACP_FILEUPLOAD_SIZE'					=> 'Größe',
+	'ACP_MULTI_FILES'		=>	array(
+		1 => '%s Datei',
+		2 => '%s Dateien',
+	),
+	'ACP_FILEUPLOAD_SORT_USERNAME'			=> 'Benutzername',
+	'ACP_FILEUPLOAD_SORT_DATE'				=> 'Datum',
+	'ACP_FILEUPLOAD_NOT_SELECTED'			=> 'Keine Dateien ausgewählt',
 ));
