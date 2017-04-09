@@ -110,8 +110,13 @@ $lang = array_merge($lang, array(
 		1 => 'Spende läuft ab in <strong>%1$d</strong> Tag, am',
 		2 => 'Spende läuft ab in <strong>%1$d</strong> Tagen, am',
 	),
+	'DONATION_EXPIRY_DAYS_DONORLIST'		=> array(
+		0 => 'Spende läuft nie ab',
+		1 => 'Spende läuft ab in <strong>%1$d</strong> Tag',
+		2 => 'Spende läuft ab in <strong>%1$d</strong> Tagen',
+	),
 	//UCP
-	'UCP_DONATION_TITLE'						=> 'Donations',
+	'UCP_DONATION_TITLE'						=> 'Spenden',
 	'UCP_DONATION_EXPLAIN'						=> 'Deine Spenden für diese Seite',
 	'UCP_DONATION_SEE'							=> 'Schau deine Spenden an',
 	'UCP_DONATION_SEE_EXPLAIN'					=> 'Andere Mitglieder dürfen deine Spenden sehen.<br />Setzen auf „Nein“ versteckt den Betrag und den Gesamtbetrag.',
@@ -185,7 +190,7 @@ $lang = array_merge($lang, array(
 	'DONORS_TOTAL'								=> 'Spender gesamt',
 	'DONORS_TOTAL_PER_DAY'						=> 'Spender pro Tag',
 	'DONATION_AMOUNTS'							=> 'Beträge',
-	'DONATION_AMOUNTS_EXPLAIN'					=> 'Trenne Betrag mit einem Komma',
+	'DONATION_AMOUNTS_EXPLAIN'					=> 'Trenne Betrag mit einem Komma ab',
 	'DONATION_TIME_ENABLE'						=> 'Aktiviere Spendentage',
 	'DONATION_TIME_ENABLE_EXPLAIN'				=> 'Wenn dies auf Ja gesetzt wird, werden unten die Tage aktiviert.',
 	'DONATION_DAYS'								=> 'Tage',
