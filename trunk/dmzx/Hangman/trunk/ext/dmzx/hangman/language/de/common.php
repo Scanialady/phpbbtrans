@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'HANGMAN_DELETE'				=> 'Hangman löschen',
 	'CLOSE_WINDOW'					=> 'Fenster schließen',
 	'HANGMAN_WINDOW_MODE'			=> 'Klicke hier, um im Fenster zu spielen',
-	'HANGMAN_BOARD_DISABLE'			=> 'Sorry, Board Hangman is disabled, please, try later.',
+	'HANGMAN_BOARD_DISABLE'			=> 'Entschuldige, Hangman ist gerade deaktiviert. Versuch es bitte später noch einmal.',
 	'HANGMAN_VIEW_ONLINE'			=> 'Spielt Hangman',
 	'HANGMAN_TITLE'					=> 'Hangman',
 	'HANGMAN_OVERALL_HEADLINE'		=> 'Hangman Version',
@@ -126,7 +126,8 @@ $lang = array_merge($lang, array(
 	'CREATE_RULES_TEXT'				=> '<br />* Gib einen sinnvollen Titel ein (z. B.: Geografie, Pop Star)<br />
 		* Gib ein geläufiges Wort ein<br />
 		* Beachte die korrekte Rechtschreibung<br />
-		* Gib einen kleinen Hilfetext an (z.B. Hauptstadt in Europa)<br /><br />',
+		* Zeichen: ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789, .:_-?;*+!<br />
+		* Gib eventuell einen kleinen Hilfetext an (z.B. Hauptstadt in Europa)<br /><br />',
 	// QUESS
 	'HANGMAN_NO_PLAY_PERMISSION'	=> 'Entschuldige, du hast nicht die erforderlichen Rechte, um Hangman zu spielen.',
 	'HANGMAN_QUESS'					=> 'Hangman erraten',
@@ -143,7 +144,7 @@ $lang = array_merge($lang, array(
 	'SECONDS'						=> 'Sekunde(n)',
 	'QUESS_LOST_RETRY'				=> 'Du hast das Spiel leider verloren, in %d %s kannst du es noch einmal versuchen!',
 	'QUESS_LOST_RETRY_OVERVIEW' 	=> 'Du kannst erneut spielen in %d %s!',
-	'HANGMAN_SELF'					=> 'Du hast dieses Spiel selbst erstellt yourself!',
+	'HANGMAN_SELF'					=> 'Du hast dieses Spiel selbst erstellt und kannst nicht mitraten!',
 	'QUESS_TIME_UP'					=> 'Die Zeit für dieses Hangman ist bereits abgelaufen!',
 	'QUESS_REMAINING_TRIES'			=> 'Du hast noch %s Versuche.',
 	'QUESS_QUESSORS'				=> 'Folgende Benutzer haben es schon versucht:&nbsp;&nbsp;',
@@ -157,7 +158,7 @@ $lang = array_merge($lang, array(
 	'HIGHSCORE_CREATED'				=> 'Erstellt',
 	'HIGHSCORE_POINTS'				=> 'Punkte',
 	'HIGHSCORE_R_LETTERS'			=> 'Richtige Buchstaben',
-	'HIGHSCORE_W_LETTERS'			=> 'Falsche Buchstben',
+	'HIGHSCORE_W_LETTERS'			=> 'Falsche Buchstaben',
 	'HIGHSCORE_ASC'					=> 'Aufsteigend',
 	'HIGHSCORE_DESC'				=> 'Absteigend',
 	'HIGHSCORE_FILTER_WON'			=> 'Highscore filtern nach gewonnenen',
