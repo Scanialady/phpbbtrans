@@ -42,6 +42,8 @@ $lang = array_merge($lang, array(
 	'ACP_IMAGEUPLOAD_VERSION'				=> 'Version',
 	'ACP_IMAGE_UPLOAD_CONFIGURATION'		=> 'Image Upload Konfiguration',
 	'ACP_IMAGEUPLOAD_ENABLE'				=> 'Aktiviere Image Upload',
+	'ACP_IMAGEUPLOAD_INDEX_ENABLE'			=> 'Aktiviere hochgeladene Bilder auf der Forenseite',
+	'ACP_IMAGEUPLOAD_INDEX_ENABLE_EXPLAIN'	=> 'Globales on/off von Bildern auf der Forenseite für alle Mitglieder.<br />Mitglieder können im UCP wählen, ob sie hochgeladene Bilder auf der Forenseite sehen möchten.',
 	'ACP_IMAGEUPLOAD_ENABLE_EXPLAIN'		=> 'Globale Einstellung um den Bilder-Upload zu aktivieren.',
 	'ACP_IMAGEUPLOAD_NUMBER'				=> 'Größe des Uploads',
 	'ACP_IMAGEUPLOAD_NUMBER_EXPLAIN'		=> 'Setze die maximale Größe des Uploads in MB. Standard ist 2 MB.',
@@ -60,5 +62,7 @@ $lang = array_merge($lang, array(
 	),
 	'ACP_IMAGEUPLOAD_SORT_USERNAME'			=> 'Benutzername',
 	'ACP_IMAGEUPLOAD_SORT_DATE'				=> 'Datum',
-	'ACP_IMAGEUPLOAD_NOT_SELECTED'			=> 'Keine Bilder ausgewählt',		
+	'ACP_IMAGEUPLOAD_NOT_SELECTED'			=> 'Keine Bilder ausgewählt',
+	'ACP_IMAGEUPLOAD_CHAT_ENABLE'			=> 'Aktiviere Bildbeiträge für mChat',
+	'ACP_IMAGEUPLOAD_CHAT_ENABLE_EXPLAIN'	=> 'Setze dies auf Ja, um hochgeladene Bilder von der Forenseite per Klick in mChat einzufügen.',	
 ));

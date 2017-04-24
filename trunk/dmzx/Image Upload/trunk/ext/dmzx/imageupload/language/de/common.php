@@ -51,4 +51,11 @@ $lang = array_merge($lang, array(
 	'IMAGEUPLOAD_IMG_LINK'						=> 'IMG',
 	'IMAGEUPLOAD_HSIMG_LINK'					=> 'HSIMG',
 	'IMAGEUPLOAD_BY'							=> 'Bild hochgeladen von ',
+	'IMAGEUPLOAD_COPY'							=> 'kopieren',
+	'IMAGEUPLOAD_UPLOADED_IMAGES'				=> 'Deine hochgeladenen Bilder',
+	'IMAGEUPLOAD_POSTINGPAGE'					=> 'Hier findest du deine hochgeladenen Bilder. Klicke auf das Bild für eine Vorschau, lediglich ziehen und in den Textbereich fallen lassen für den Beitrag.',
+	'IMAGEUPLOAD_INDEXPAGE'						=> 'Hier findest du deine hochgeladenen Bilder. Klicke auf das Bild für eine Vorschau, lediglich ziehen und fallen lassen.',
+	'IMAGEUPLOAD_INDEXPAGE_CHAT'				=> 'Hier findest du deine hochgeladenen Bilder. Klicke auf das Bild für eine Vorschau, lediglich ziehen und fallen lassen, oder klicke auf den Titel-Button, um es direkt in mChat zu posten.',
+	'IMAGEUPLOAD_UPC_INDEX'						=> 'Deine hochgeladenen Bilder auf der Forenseite sehen',
+	'IMAGEUPLOAD_COLLAPSIBLE_CATEGORIES_TITLE'	=> 'Sichtbarkeit der hochgeladenen Bilder umschalten',
 ));
