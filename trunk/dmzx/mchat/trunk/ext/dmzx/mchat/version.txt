@@ -1,1 +1,1 @@
-mChat von dmzx, Version 2.0.0-RC7
+mChat von dmzx/kasimi, Version 2.0.1
