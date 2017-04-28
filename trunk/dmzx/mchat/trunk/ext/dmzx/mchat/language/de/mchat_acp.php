@@ -91,6 +91,10 @@ $lang = array_merge($lang, array(
 	'MCHAT_MESSAGE_NUM_INDEX_EXPLAIN'				=> '<em>Du bist eingeschränkt auf Einstellungen zwischen 5 und 50. Standard ist 10.</em>',
 	'MCHAT_MESSAGE_NUM_ARCHIVE'						=> 'Nachrichtenanzahl zur Anzeige auf der Archivseite',
 	'MCHAT_MESSAGE_NUM_ARCHIVE_EXPLAIN'				=> 'Die maximale Anzahl an Nachrichten, die je Seite auf der Archivseite angezeigt werden sollen.<br /><em>Du bist beschränkt auf Einstellungen zwischen 10 und 100. Standard ist 25.</em>',
+	'MCHAT_ARCHIVE_SORT'							=> 'Nachrichten sortieren',
+	'MCHAT_ARCHIVE_SORT_TOP_BOTTOM'					=> 'Sortiere Nachrichten immer von oben nach unten',
+	'MCHAT_ARCHIVE_SORT_BOTTOM_TOP'					=> 'Sortiere Nachrichten immer von unten nach oben',
+	'MCHAT_ARCHIVE_SORT_USER'						=> 'Nachrichtensortierung hängt ab von der Einstellung des Benutzers zu <em>Lokalisierung neuer Nachrichten</em>',
 	'MCHAT_FLOOD_TIME'								=> 'Überflutungszeit',
 	'MCHAT_FLOOD_TIME_EXPLAIN'						=> 'Die Zeit in Sekunden, die ein Benutzer warten muß, bis er eine neue Nachricht im mChat absenden kann.<br /><em>Begrenzt auf 0 bis 60 Sekunden. Standard ist 0. Stelle 0 ein, um die Funktion zu deaktivieren</em>',
 	'MCHAT_EDIT_DELETE_LIMIT'						=> 'Zeitbegrenzung für bearbeiten und löschen von Nachrichten',
@@ -98,7 +102,6 @@ $lang = array_merge($lang, array(
 	'MCHAT_MAX_MESSAGE_LENGTH'						=> 'Maximale Nachrichtenlänge',
 	'MCHAT_MAX_MESSAGE_LENGTH_EXPLAIN'				=> 'Die maximal erlaubte Anzahl von Zeichen pro Nachricht.<br /><em>Empfohlen sind 100 bis 500, stelle 0 ein, um die Funktion zu deaktivieren</em>.',
 	'MCHAT_CUSTOM_PAGE'								=> 'Separate Seite aktivieren',
-	'MCHAT_CUSTOM_PAGE_EXPLAIN'						=> 'Erlaubt die Benutzung des Chats auf einer eigenständigen Seite.',
 	'MCHAT_CUSTOM_HEIGHT'							=> 'Höhe der separaten Seite',
 	'MCHAT_CUSTOM_HEIGHT_EXPLAIN'					=> 'Die Höhe der Chat-Box in Pixeln auf der eigenen mChat Seite.<br /><em>Die Einstellung ist begrenzt von 50 bis 1000 Pixel</em>.',
 	'MCHAT_BBCODES_DISALLOWED'						=> 'Nicht erlaubte BBCodes',
@@ -118,6 +121,10 @@ $lang = array_merge($lang, array(
 	'MCHAT_PURGE'									=> 'Lösche jetzt alle Nachrichten',
 	'MCHAT_PURGE_CONFIRM'							=> 'Bestätige die Löschung aller Nachrichten',
 	'MCHAT_PURGED'									=> 'Alle mChat Nachrichten wurden erfolgreich gelöscht',
+
+	// '%1$s' enthält 'Beiträge behalten' bzw. 'Beiträge löschen'
+	'MCHAT_RETAIN_MESSAGES'							=> '%1$s und behalte mChat-Nachrichten',
+	'MCHAT_DELETE_MESSAGES'							=> '%1$s und lösche mChat-Nachrichten',
 	
 	// Error reporting
 	'TOO_LONG_MCHAT_BBCODE_DISALLOWED'				=> 'Der Wert für nicht erlaubte BBCodes ist zu lang.',

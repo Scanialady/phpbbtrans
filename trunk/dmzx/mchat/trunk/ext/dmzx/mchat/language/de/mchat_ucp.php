@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'MCHAT_PAUSE_ON_INPUT_EXPLAIN'	=> 'Aktualisiere mChat nicht, während eine Nachricht geschrieben wird',
 	'MCHAT_MESSAGE_TOP'				=> 'Lokalisierung neuer Nachrichten',
 	'MCHAT_MESSAGE_TOP_EXPLAIN'		=> 'Neue Nachrichten werden oben oder unten im Chat erscheinen.',
-	'MCHAT_LOCATION'				=> 'Lokalisierung auf dem Forenindex',
+	'MCHAT_LOCATION'				=> 'Lokalisierung auf der Forenübersicht',
 	'MCHAT_BOTTOM'					=> 'Unten',
 	'MCHAT_TOP'						=> 'Oben',
 
