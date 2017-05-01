@@ -1,6 +1,7 @@
 <?php
 /**
 *
+* @version $Id$
 * @package phpBB Extension - No Access
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -30,9 +31,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'NOACCESS_TEXT'		=> 'No Access',
+	'NOACCESS_TEXT'		=> 'Kein Zugriff',
 ));
