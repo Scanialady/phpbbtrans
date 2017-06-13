@@ -1,1 +1,1 @@
-david64 dev disable extensions version 2.1.0rc3 für phpBB 3.2.0
+david63 dev disable extensions version 2.1.0 CDB für phpBB 3.2.0

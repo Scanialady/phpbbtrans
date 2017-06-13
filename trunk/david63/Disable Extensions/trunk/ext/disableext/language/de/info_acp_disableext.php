@@ -34,13 +34,13 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
 	'DISABLE_EXTENSIONS'		=> 'Deaktiviere alle Erweiterungen',
 	'DISABLE_EXTENSIONS_LOG'	=> array(
-		0 => '<strong>Es konnte keine Extension deaktiviert werden</strong>',
+		0 => '<strong>Es konnten keine Extensionen deaktiviert werden</strong>',
 		1 => '<strong>%1$s von %2$s Extension deaktiviert</strong>',
 		2 => '<strong>%1$s von %2$s Extensionen deaktiviert</strong>',
 	),

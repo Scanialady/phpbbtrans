@@ -34,7 +34,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ‚ ‘ ’ « » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 		2 => 'Du bist gerade dabei, die Extensionen %1$s zu deaktiveren.',
 	),
 	'DISABLE_EXTENSIONS'			=> 'Extensionen deaktivieren',
-	'DISABLE_EXTENSIONS_EXPLAIN'	=> 'Diese Extension wird alle deine Extensionen deaktivieren. Sie wird keinerlei Daten löschen, die zu irgendeiner Extension gehören, und du wirst in der Lage sein, sie wieder zu reaktivieren über <strong>“Erweiterungen verwalten”</strong>.<br /><br />Wenn du einen Extension nach der Deaktivierung entfernen möchtest, <strong>musst</strong> du für die betreffende Extension zuerst die “Arbeitsdaten löschen”, <strong>bevor</strong> du die Dateien vom FTP löschst.',
+	'DISABLE_EXTENSIONS_EXPLAIN'	=> 'Diese Extension wird alle deine Extensionen deaktivieren. Sie wird keinerlei Daten löschen, die zu irgendeiner Extension gehören, und du wirst in der Lage sein, sie wieder zu reaktivieren über <strong>“Erweiterungen verwalten”</strong>.<br /><br />Wenn du eine Extension nach der Deaktivierung entfernen möchtest, <strong>musst</strong> du für die betreffende Extension zuerst die “Arbeitsdaten löschen”, <strong>bevor</strong> du die Dateien vom FTP löschst.',
 
 	'EXTENSIONS_DISABLED'			=> array(
 		0 => 'Es wurden keine Extensionen deaktiviert bei diesem Durchgang',
