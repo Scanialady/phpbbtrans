@@ -39,15 +39,15 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ARE_YOU_SURE'					=> array(
-		1 => 'Bist du sicher, dass du die Extension %1$s deaktivieren möchtest?',
-		2 => 'Bist du sicher, dass du die Extensionen %1$s deaktivieren möchtest?',
+		1 => 'Bist du sicher, dass du %1$s Extension deaktivieren möchtest?',
+		2 => 'Bist du sicher, dass du %1$s Extensionen deaktivieren möchtest?',
 	),
 
 	'CONTINUE'						=> 'Fortsetzen',
 
 	'DISABLE_COUNT'					=> array(
-		1 => 'Du bist gerade dabei, die Extension %1$s zu deaktivieren.',
-		2 => 'Du bist gerade dabei, die Extensionen %1$s zu deaktiveren.',
+		1 => 'Du bist gerade dabei, %1$s Extension zu deaktivieren.',
+		2 => 'Du bist gerade dabei, %1$s Extensionen zu deaktiveren.',
 	),
 	'DISABLE_EXTENSIONS'			=> 'Extensionen deaktivieren',
 	'DISABLE_EXTENSIONS_EXPLAIN'	=> 'Diese Extension wird alle deine Extensionen deaktivieren. Sie wird keinerlei Daten löschen, die zu irgendeiner Extension gehören, und du wirst in der Lage sein, sie wieder zu reaktivieren über <strong>“Erweiterungen verwalten”</strong>.<br /><br />Wenn du eine Extension nach der Deaktivierung entfernen möchtest, <strong>musst</strong> du für die betreffende Extension zuerst die “Arbeitsdaten löschen”, <strong>bevor</strong> du die Dateien vom FTP löschst.',
