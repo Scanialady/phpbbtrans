@@ -1,10 +1,8 @@
 <?php
 
 /**
-*
-* Show first post only to guest [German]
-* @version $Id$
-* @package language phpBB Extension
+* @version $ID$
+* @package Show first post only to guest (deutsch)
 * @copyright (c) 2016 Rich McGirr (RMcGirr83)
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -31,7 +29,8 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-// Some characters you may want to copy&paste: ‚ ‘ ’ « » „ “ ” …
+// Some characters you may want to copy&paste:
+// ’ » “ ” …
 
 //Show First Post Only
 $lang = array_merge($lang, array(
@@ -40,5 +39,5 @@ $lang = array_merge($lang, array(
 		2 => 'Dieses Thema hat <strong>%d</strong> Antworten',
 	),
 	'SFPO_MSG_REGISTER'        => 'Du musst registriertes Mitglied und eingeloggt sein, um die Antworten in diesem Thema anzusehen.',
-	'SFPO_APPEND_MESSAGE' => '<em>einloggen, um den Rest dieses Beitrages zu lesen</em>',
+	'SFPO_APPEND_MESSAGE' => '…<em>%seinloggen%s, um den Rest dieses Beitrages zu lesen</em></strong>',
 ));
