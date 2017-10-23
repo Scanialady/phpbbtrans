@@ -39,5 +39,5 @@ $lang = array_merge($lang, array(
 		2 => 'Dieses Thema hat <strong>%d</strong> Antworten',
 	),
 	'SFPO_MSG_REGISTER'        => 'Du musst registriertes Mitglied und eingeloggt sein, um die Antworten in diesem Thema anzusehen.',
-	'SFPO_APPEND_MESSAGE' => '…<em>%seinloggen%s, um den Rest dieses Beitrages zu lesen</em></strong>',
+	'SFPO_APPEND_MESSAGE' => ' …<em>%seinloggen%s, um den Rest dieses Beitrages zu lesen</em></strong>',
 ));
