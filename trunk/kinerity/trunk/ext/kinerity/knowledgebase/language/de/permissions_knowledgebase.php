@@ -1,8 +1,8 @@
 <?php
 /**
  *
- * @version $Id$
- * Knowledge Base extension for the phpBB Forum Software package (deutsch)
+ * Knowledge Base extension for the phpBB Forum Software package
+ *
  * @copyright (c) 2017, kinerity, https://www.acsyste.com
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
@@ -38,18 +38,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACL_CAT_KNOWLEDGEBASE'	=> 'Wissensdatenbank',
+	'ACL_CAT_KNOWLEDGEBASE'	=> 'Knowledge Base',
 
-	'ACL_U_KB_READ'			=> 'Kann Wissensdatenbank sehen',
-	'ACL_U_KB_POST'			=> 'Kann neue Artikel erstellen',
-	'ACL_U_KB_EDIT'			=> 'Kann eigene Artikel bearbeiten',
-	'ACL_U_KB_DELETE'		=> 'Kann eigene Artikel löschen',
-	'ACL_U_KB_NOAPPROVE'	=> 'Kann Artikel ohne Genehmigung erstellen',
+	'ACL_U_KB_READ'			=> 'Kann die Knowledge Base sehen',
+	'ACL_U_KB_POST'			=> 'Kann neue Beiträge hinzufügen',
+	'ACL_U_KB_EDIT'			=> 'Kann eigene Beiträge ändern',
+	'ACL_U_KB_DELETE'		=> 'Kann eigene Beiträge löschen',
+	'ACL_U_KB_NOAPPROVE'	=> 'Kann Beiträge ohne Freigabe veröffentlichen',
 
-	'ACL_M_KB_EDIT'			=> 'Kann Artikel bearbeiten',
-	'ACL_M_KB_DELETE'		=> 'Kann Artikel löschen',
-	'ACL_M_KB_APPROVE'		=> 'Kann Artikel genehmigen<br /><em>Diese Berechtigung beinhaltet ablehnen und verweigern!</em>',
-	'ACL_M_KB_CHGPOSTER'	=> 'Kann Artikelautor ändern',
+	'ACL_M_KB_EDIT'			=> 'Kann Beiträge hinzufügen',
+	'ACL_M_KB_DELETE'		=> 'Kann Beiträge löschen',
+	'ACL_M_KB_APPROVE'		=> 'Kann Beiträge genehmigen<br /><em>Die beinhaltet auch ablehnen und verweigern!</em>',
+	'ACL_M_KB_CHGPOSTER'	=> 'Kann Autor ändern',
 
-	'ACL_A_KB_MANAGE'		=> 'Kann Wissensdatenbank verwalten',
+	'ACL_A_KB_MANAGE'		=> 'Kann Knowledge Base verwalten',
 ));

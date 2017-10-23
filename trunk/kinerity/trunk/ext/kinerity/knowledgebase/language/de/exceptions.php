@@ -1,8 +1,8 @@
 <?php
 /**
  *
- * @version $Id$
- * Knowledge Base extension for the phpBB Forum Software package (deutsch)
+ * Knowledge Base extension for the phpBB Forum Software package
+ *
  * @copyright (c) 2017, kinerity, https://www.acsyste.com
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
@@ -34,15 +34,15 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ‚ ‘ ’ « » „ “ ” …
+// ’ » “ ” …
 //
 
 $lang = array_merge($lang, array(
-	'EXCEPTION_FIELD_MISSING'		=> 'Erforderliches Feld fehlt',
-	'EXCEPTION_INVALID_ARGUMENT'	=> 'Ungültiges Argument festgelegt für `%1$s`. Grund: %2$s',
-	'EXCEPTION_OUT_OF_BOUNDS'		=> 'Das Feld `%1$s` erhielt Daten über seine Begrenzung hinaus',
-	'EXCEPTION_TOO_LONG'			=> 'Die Eingabe war länger als die maximale Länge.',
-	'EXCEPTION_NOT_UNIQUE'			=> 'Die Eingabe war nicht einzigartig.',
-	'EXCEPTION_UNEXPECTED_VALUE'	=> 'Das Feld `%1$s` erhielt unerwartete Daten. Grund: %2$s',
-	'EXCEPTION_ILLEGAL_CHARACTERS'	=> 'Die Eingabe enthielt unerlaubte Zeichen.',
+	'EXCEPTION_FIELD_MISSING'		=> 'Pflichtfeld fehlt',
+	'EXCEPTION_INVALID_ARGUMENT'	=> 'Ungültige Angabe für `%1$s`. Grund: %2$s',
+	'EXCEPTION_OUT_OF_BOUNDS'		=> 'Das Feld `%1$s` enthält Daten ausserhalb des Gültigkeitsbereichs.',
+	'EXCEPTION_TOO_LONG'			=> 'Die Eingabe is zu lang',
+	'EXCEPTION_NOT_UNIQUE'			=> 'Die Eingabe ist nicht eindeutig',
+	'EXCEPTION_UNEXPECTED_VALUE'	=> 'Das Feld `%1$s` enthält unerwartete Daten. Grund: %2$s',
+	'EXCEPTION_ILLEGAL_CHARACTERS'	=> 'Die Eingabe enthält nicht erlaube Zeichen.',
 ));
