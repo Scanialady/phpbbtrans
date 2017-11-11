@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * Lightbox extension for the phpBB Forum Software package (deutsch).
+ * Lightbox extension for the phpBB Forum Software package.
  * @version $Id$
  * @copyright (c) 2015 Matt Friedman
  * @license GNU General Public License, version 2 (GPL-2.0)
@@ -28,6 +28,8 @@ $lang = array_merge($lang, array(
 	'LIGHTBOX_MAX_WIDTH_APPEND'		=> 'Empfehlung basierend auf den Bilderanhang-Einstellungen: %spx',
 	'LIGHTBOX_GALLERY'				=> 'Erlaube Galeriemodus',
 	'LIGHTBOX_GALLERY_EXPLAIN'		=> 'Erlaubt einfache Navigation zwischen allen verkleinerten Bildern auf der Seite, unter Benutzung des Lightbox-Effekts.',
+	'LIGHTBOX_GALLERY_ALL'			=> 'Alle skalierten Bilder der Seite',
+	'LIGHTBOX_GALLERY_POSTS'		=> 'Alle skalierten Bilder je Beitrag',
 	'LIGHTBOX_SIGNATURES'			=> 'Verkleinere Signaturbilder',
 	'LIGHTBOX_SIGNATURES_EXPLAIN'	=> 'Erlaubt die Verkleinerung von Bildern, die in Signaturen benutzt werden.',
 	'LIGHTBOX_IMG_TITLES'			=> 'Zeige Bildernamen',
