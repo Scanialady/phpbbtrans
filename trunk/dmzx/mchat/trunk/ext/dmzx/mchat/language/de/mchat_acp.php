@@ -92,8 +92,8 @@ $lang = array_merge($lang, array(
 	'MCHAT_MESSAGE_NUM_ARCHIVE'						=> 'Nachrichtenanzahl zur Anzeige auf der Archivseite',
 	'MCHAT_MESSAGE_NUM_ARCHIVE_EXPLAIN'				=> 'Die maximale Anzahl an Nachrichten, die je Seite auf der Archivseite angezeigt werden sollen.<br /><em>Du bist beschränkt auf Einstellungen zwischen 10 und 100. Standard ist 25.</em>',
 	'MCHAT_ARCHIVE_SORT'							=> 'Nachrichten sortieren',
-	'MCHAT_ARCHIVE_SORT_TOP_BOTTOM'					=> 'Sortiere Nachrichten immer von oben nach unten',
-	'MCHAT_ARCHIVE_SORT_BOTTOM_TOP'					=> 'Sortiere Nachrichten immer von unten nach oben',
+	'MCHAT_ARCHIVE_SORT_TOP_BOTTOM'					=> 'Sortiere Nachrichten immer von der ältesten zur neuesten',
+	'MCHAT_ARCHIVE_SORT_BOTTOM_TOP'					=> 'Sortiere Nachrichten immer von der neuesten zur ältesten',
 	'MCHAT_ARCHIVE_SORT_USER'						=> 'Nachrichtensortierung hängt ab von der Einstellung des Benutzers zu <em>Lokalisierung neuer Nachrichten</em>',
 	'MCHAT_FLOOD_TIME'								=> 'Überflutungszeit',
 	'MCHAT_FLOOD_TIME_EXPLAIN'						=> 'Die Zeit in Sekunden, die ein Benutzer warten muß, bis er eine neue Nachricht im mChat absenden kann.<br /><em>Begrenzt auf 0 bis 60 Sekunden. Standard ist 0. Stelle 0 ein, um die Funktion zu deaktivieren</em>',
@@ -114,6 +114,9 @@ $lang = array_merge($lang, array(
 	'MCHAT_OVERRIDE_SMILIE_LIMIT_EXPLAIN'			=> 'Setze auf Ja um die Smiliebegrenzung des Forums für Chatnachrichten zu überschreiben',
 	'MCHAT_OVERRIDE_MIN_POST_CHARS'					=> 'Minimale Anzahl von Zeichen überschreiben?',
 	'MCHAT_OVERRIDE_MIN_POST_CHARS_EXPLAIN'			=> 'Setze auf Ja um die Forumseinstellung für die minimale Anzahl von Zeichen für Chatnachrichten zu überschreiben',
+
+	'MCHAT_POSTS_AUTH_CHECK'						=> 'Erfordert Benutzerberechtigung',
+	'MCHAT_POSTS_AUTH_CHECK_EXPLAIN'				=> 'Wenn dies auf Ja gesetzt wird, werden Benutzer, die keine Berechtigung für die Benutzung von mChat haben, auch keine Beitrags- oder Loginbenachrichtigungen auslösen.',
 
 	'MCHAT_WHOIS_REFRESH'							=> '„Wer chattet“ Aktualisierungsintervall',
 	'MCHAT_WHOIS_REFRESH_EXPLAIN'					=> 'Anzahl der Sekunden, ehe „Wer chattet“ aktualisiert.<br /><em>Du bist beschränkt auf Einstellungen von 10 bis 300 Sekunden. Standard ist 60.</em>',
