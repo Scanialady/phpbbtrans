@@ -2,7 +2,7 @@
 /**
 *
 * Thanks For Posts extension for the phpBB Forum Software package.
-* @version $Id$
+*
 * @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'REMOVE_THANKS_SHORT'		=> 'Danksagung entfernen',
 	'REPUT'						=> 'Bewertung',
 	'REPUT_TOPLIST'				=> 'Danksagungen Topliste — %d',
-	'RETING_LOGIN_EXPLAIN'		=> 'Du bist nicht berechtigt, die Topliste zu sehen.',
+	'RATING_LOGIN_EXPLAIN'		=> 'Du bist nicht berechtigt, die Topliste zu sehen.',
 	'RATING_NO_VIEW_TOPLIST'	=> 'Du bist nicht berechtigt, die Topliste zu sehen.',
 	'RATING_VIEW_TOPLIST_NO'	=> 'Die Topliste ist leer oder wurde durch den Administrator deaktiviert.',
 	'RATING_FORUM'				=> 'Forum',
