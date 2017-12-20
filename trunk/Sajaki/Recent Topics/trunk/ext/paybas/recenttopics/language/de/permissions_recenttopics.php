@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * @package Recent Topics Extension (deutsch)
+ * @package Recent Topics Extension
  *
  * @copyright (c) 2015 PayBas
  * @license GNU General Public License, version 2 (GPL-2.0)
@@ -44,6 +44,6 @@ $lang = array_merge(
 		'ACL_U_RT_ENABLE'          => 'Kann „Aktuelle Themen“ aktivieren / deaktivieren.',
 		'ACL_U_RT_LOCATION'        => 'Kann den Anzeigeort des Blocks „Aktuelle Themen“ ändern .',
 		'ACL_U_RT_SORT_START_TIME' => 'Kann Sortierung des Blocks „Aktuelle Themen“ ändern.',
-		'ACL_U_RT_UNREAD_ONLY'     => 'Kann Optionen zu ungelesenen „Aktuelle Themen“ ändern.',
+		'ACL_U_RT_UNREAD_ONLY'     => 'Kann „Aktuelle Themen“-Modus auf „nur ungelesene“ändern.',
 	)
 );
