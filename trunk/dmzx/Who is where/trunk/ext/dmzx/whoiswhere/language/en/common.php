@@ -2,7 +2,7 @@
 /**
 *
 * @package phpBB Extension - Who is where
-* @copyright (c) 2016 dmzx - http://www.dmzx-web.net
+* @copyright (c) 2016 dmzx - https://www.dmzx-web.net
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -36,6 +36,7 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 
 $lang = array_merge($lang, array(
+	'WHOISWHERE_TITLE'						=> 'Who is Where',
 	'WHOISWHERE_TITLE_EXT'						=> 'Who is Where Extension',
 	'WHOISWHERE_ALLOW_WHOISWHERE'				=> 'Enable Who is where',
 	'WHOISWHERE_ALLOW_WHOISWHERE_EXPLAIN'		=> 'Enable on index.',
