@@ -1,1 +1,0 @@
-Reset Login Attempts 1.0.3 für phpBB 3.1.2

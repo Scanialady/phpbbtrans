@@ -1,1 +1,0 @@
-collapsible categories 1.0.0 für phpBB 3.1.2
