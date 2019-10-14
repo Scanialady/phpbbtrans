@@ -1,3 +1,3 @@
 h1. readme
 
-Translations GERMAN - DE, several authors and extensions 2017
+Translations GERMAN - DE, several authors and extensions 2017 and newer
